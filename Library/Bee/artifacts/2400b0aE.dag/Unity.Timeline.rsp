@@ -110,6 +110,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:TIMELINE_FRAMEACCURATE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -331,6 +332,7 @@
 -r:"/home/g/Unity/Trails/Library/PackageCache/com.unity.collab-proxy@1.15.4/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"/home/g/Unity/Trails/Library/PackageCache/com.unity.collab-proxy@1.15.4/Lib/Editor/PlasticSCM/unityplastic.dll"
 -r:"/home/g/Unity/Trails/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
+-r:"Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 "Library/PackageCache/com.unity.timeline@1.6.2/Runtime/Activation/ActivationMixerPlayable.cs"

@@ -1,0 +1,4 @@
+#Sat Dec 11 01:33:31 CET 2021
+base.0=/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

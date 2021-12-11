@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637747673660000000
-    m_Hash: 2428142730
+      ticks: 637747766710000000
+    m_Hash: 3272788342
   m_LockFileStatus:
     m_FilePath: /home/g/Unity/Trails/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637747673660000000
-    m_Hash: 1829584747
+      ticks: 637747766710000000
+    m_Hash: 3384664561
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -358,6 +358,159 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.4
+    nextVersion: 
+- packageId: com.unity.mobile.android-logcat@1.2.3
+  testable: 0
+  isDirectDependency: 1
+  version: 1.2.3
+  source: 1
+  resolvedPath: /home/g/Unity/Trails/Library/PackageCache/com.unity.mobile.android-logcat@1.2.3
+  assetPath: Packages/com.unity.mobile.android-logcat
+  name: com.unity.mobile.android-logcat
+  displayName: Android Logcat
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "Android Logcat package adds support for displaying log messages coming
+    from Android devices in Unity Editor. Click the 'View documentation' link above
+    for more information.\n\nThe window can be accessed in Unity Editor via 'Window
+    > Analysis > Android Logcat', or simply by pressing 'Alt+6' on Windows or 'Option+6'
+    on macOS. \n\nMake sure to have Android module loaded and switch to Android build
+    target in 'Build Settings' window if the menu doesn't exist."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.5-preview
+    - 0.2.7-preview
+    - 1.0.0
+    - 1.0.1-preview
+    - 1.0.3-preview
+    - 1.1.0
+    - 1.1.1
+    - 1.2.0-preview
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    compatible:
+    - 1.2.3
+    verified: 1.2.3
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Mobile
+  - Android
+  - Logcat
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637625737880000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.mobile.logcat.git
+    revision: 59c5911d3f6465a7ecf9b03c8ad8ed681b549613
+    path: 
+  unityLifecycle:
+    version: 1.2.3
+    nextVersion: 
+- packageId: com.unity.postprocessing@3.2.0
+  testable: 0
+  isDirectDependency: 1
+  version: 3.2.0
+  source: 1
+  resolvedPath: /home/g/Unity/Trails/Library/PackageCache/com.unity.postprocessing@3.2.0
+  assetPath: Packages/com.unity.postprocessing
+  name: com.unity.postprocessing
+  displayName: Post Processing
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The post-processing stack (v2) comes with a collection of effects
+    and image filters you can apply to your cameras to improve the visuals of your
+    games.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.7
+    - 0.1.8
+    - 2.0.0-beta
+    - 2.0.1-beta
+    - 2.0.2-preview
+    - 2.0.3-preview
+    - 2.0.5-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 2.0.9-preview
+    - 2.0.10-preview
+    - 2.0.11-preview
+    - 2.0.12-preview
+    - 2.0.13-preview
+    - 2.0.14-preview
+    - 2.0.15-preview
+    - 2.0.16-preview
+    - 2.0.17-preview
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.7
+    - 2.2.1
+    - 2.2.2
+    - 2.3.0
+    - 3.0.1
+    - 3.0.3
+    - 3.1.0
+    - 3.1.1
+    - 3.2.0
+    compatible:
+    - 3.1.1
+    - 3.2.0
+    verified: 3.1.1
+  dependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637726687760000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Graphics.git
+    revision: b0e3273299e678bccb11e08d28c49d481c731c7e
+    path: 
+  unityLifecycle:
+    version: 3.1.1
     nextVersion: 
 - packageId: com.unity.render-pipelines.universal@12.1.2
   testable: 0
