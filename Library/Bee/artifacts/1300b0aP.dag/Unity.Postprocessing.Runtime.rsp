@@ -111,6 +111,12 @@
 -define:ENABLE_XR_MODULE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"/home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"/home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"/home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"/home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"/home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.Unsafe.dll"
+-r:"/home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
@@ -296,12 +302,6 @@
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.WindModule.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.XRModule.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.dll"
--r:"/home/g/Unity/Trails/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
--r:"/home/g/Unity/Trails/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"/home/g/Unity/Trails/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"/home/g/Unity/Trails/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"/home/g/Unity/Trails/Library/PackageCache/com.unity.burst@1.6.0/Unity.Burst.Unsafe.dll"
--r:"/home/g/Unity/Trails/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
 "Library/PackageCache/com.unity.postprocessing@3.2.0/PostProcessing/Runtime/Attributes/DisplayNameAttribute.cs"
 "Library/PackageCache/com.unity.postprocessing@3.2.0/PostProcessing/Runtime/Attributes/MaxAttribute.cs"

@@ -119,6 +119,7 @@
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"/home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -327,7 +328,6 @@
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
--r:"/home/g/Unity/Trails/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 "Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/Assertions/AllocatingGCMemoryConstraint.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/Assertions/ConstraintsExtensions.cs"

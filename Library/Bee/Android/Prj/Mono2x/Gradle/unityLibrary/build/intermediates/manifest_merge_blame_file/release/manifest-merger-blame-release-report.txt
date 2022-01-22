@@ -7,100 +7,105 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="22"
-9-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+9-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
 10        android:targetSdkVersion="30" />
-10-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+10-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
 11
 12    <uses-feature android:glEsVersion="0x00030000" />
-12-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:3-52
-12-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:17-49
+12-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:3-52
+12-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:17-49
 13    <uses-feature
-13-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:3-91
+13-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:3-91
 14        android:name="android.hardware.vulkan.version"
-14-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:17-63
+14-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:17-63
 15        android:required="false" />
-15-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:64-88
-16    <uses-feature
-16-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:3-88
-17        android:name="android.hardware.touchscreen"
-17-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:17-60
-18        android:required="false" />
-18-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:61-85
+15-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:64-88
+16
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:3-64
+17-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:20-61
+18
 19    <uses-feature
-19-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:3-99
-20        android:name="android.hardware.touchscreen.multitouch"
-20-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:17-71
+19-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:3-88
+20        android:name="android.hardware.touchscreen"
+20-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:17-60
 21        android:required="false" />
-21-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:72-96
+21-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:61-85
 22    <uses-feature
-22-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:3-108
-23        android:name="android.hardware.touchscreen.multitouch.distinct"
-23-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:17-80
+22-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:3-99
+23        android:name="android.hardware.touchscreen.multitouch"
+23-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:17-71
 24        android:required="false" />
-24-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:81-105
-25
-26    <application android:extractNativeLibs="true" >
-26-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-15:17
-26-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
-27        <activity
-27-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-10:16
-28            android:name="com.unity3d.player.UnityPlayerActivity"
-28-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
-29            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-29-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:182-363
-30            android:hardwareAccelerated="false"
-30-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:399-434
-31            android:launchMode="singleTask"
-31-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:150-181
-32            android:resizeableActivity="false"
-32-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:364-398
-33            android:screenOrientation="fullSensor"
-33-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-149
-34            android:theme="@style/UnityThemeSelector" >
-34-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-110
-35            <intent-filter>
-35-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-8:23
-36                <action android:name="android.intent.action.MAIN" />
-36-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
-36-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
-38-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
-39            </intent-filter>
+24-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:72-96
+25    <uses-feature
+25-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:3-108
+26        android:name="android.hardware.touchscreen.multitouch.distinct"
+26-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:17-80
+27        android:required="false" />
+27-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:81-105
+28
+29    <application android:extractNativeLibs="true" >
+29-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-15:17
+29-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+30        <activity
+30-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-10:16
+31            android:name="com.unity3d.player.UnityPlayerActivity"
+31-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
+32            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+32-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:182-363
+33            android:hardwareAccelerated="false"
+33-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:399-434
+34            android:launchMode="singleTask"
+34-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:150-181
+35            android:resizeableActivity="false"
+35-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:364-398
+36            android:screenOrientation="fullSensor"
+36-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-149
+37            android:theme="@style/UnityThemeSelector" >
+37-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-110
+38            <intent-filter>
+38-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-8:23
+39                <action android:name="android.intent.action.MAIN" />
+39-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
+39-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
 40
-41            <meta-data
-41-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:7-82
-42                android:name="unityplayer.UnityActivity"
-42-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:18-58
-43                android:value="true" />
-43-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:59-79
-44        </activity>
-45
-46        <meta-data
-46-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:5-69
-47            android:name="unity.splash-mode"
-47-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:16-48
-48            android:value="0" />
-48-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:49-66
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
+41-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
+42            </intent-filter>
+43
+44            <meta-data
+44-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:7-82
+45                android:name="unityplayer.UnityActivity"
+45-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:18-58
+46                android:value="true" />
+46-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:59-79
+47        </activity>
+48
 49        <meta-data
-49-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-74
-50            android:name="unity.splash-enable"
-50-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-50
-51            android:value="True" />
-51-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:51-71
+49-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:5-69
+50            android:name="unity.splash-mode"
+50-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:16-48
+51            android:value="0" />
+51-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:49-66
 52        <meta-data
-52-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-78
-53            android:name="unity.launch-fullscreen"
-53-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-54
+52-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-74
+53            android:name="unity.splash-enable"
+53-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-50
 54            android:value="True" />
-54-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:55-75
+54-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:51-71
 55        <meta-data
-55-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-84
-56            android:name="unity.allow-resizable-window"
-56-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-59
-57            android:value="False" />
-57-->/home/g/Unity/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:60-81
-58    </application>
-59
-60</manifest>
+55-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-78
+56            android:name="unity.launch-fullscreen"
+56-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-54
+57            android:value="True" />
+57-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:55-75
+58        <meta-data
+58-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-84
+59            android:name="unity.allow-resizable-window"
+59-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-59
+60            android:value="False" />
+60-->/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:60-81
+61    </application>
+62
+63</manifest>

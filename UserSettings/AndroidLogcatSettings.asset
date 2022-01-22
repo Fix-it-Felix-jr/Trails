@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "192.168.1.31:5555",
+    "m_SelectedDeviceId": "21f84460150c7ece",
     "m_SelectedPackage": {
-        "deviceId": "192.168.1.31:5555",
+        "deviceId": "21f84460150c7ece",
         "name": "com.DefaultCompany.Trails",
-        "processId": 26834,
+        "processId": 2421,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,6 +12,24 @@
             "deviceId": "21f84460150c7ece",
             "name": "com.sec.android.app.launcher",
             "processId": 5853,
+            "exited": true
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "org.telegram.messenger",
+            "processId": 30536,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 32596,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 2421,
             "exited": false
         },
         {

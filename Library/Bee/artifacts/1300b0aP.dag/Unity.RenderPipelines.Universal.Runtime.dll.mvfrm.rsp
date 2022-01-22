@@ -3,6 +3,11 @@ Library/Bee/artifacts/mvdfrm/Unity.Mathematics.ref.dll_92C0142275484313.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll_C33FC1AA6F3F1AD6.mvfrm
 Library/Bee/artifacts/mvdfrm/Unity.RenderPipelines.Core.Runtime.ref.dll_C67A4099BF12A775.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_AFC2E85BC2EDBC0B.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Mdb.dll_864A264104D230D4.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Pdb.dll_9D9C9EB083873257.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Rocks.dll_9C4971FF88307357.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.dll_E0528CD541072FD7.mvfrm
+Library/Bee/artifacts/mvdfrm/Unity.Burst.Unsafe.dll_CFA4AAD3A9EEAE8C.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_091A54DFEBB14900.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.ARModule.dll_C28D19E348CEA7C9.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_965A04FFA720585A.mvfrm
@@ -66,8 +71,3 @@ Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_E273A80857CBED17.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_294F1C604CCCB1C0.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_8A1EDC9772ED2182.mvfrm
 Library/Bee/artifacts/mvdfrm/UnityEngine.dll_A25BA7BF4FC0768E.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Mdb.dll_15A32E9FA4307293.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Pdb.dll_2CF5A70F22E57416.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.Rocks.dll_A22076F69432F2F6.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.Burst.Cecil.dll_82C3C2A62EDC69D6.mvfrm
-Library/Bee/artifacts/mvdfrm/Unity.Burst.Unsafe.dll_8CF271A161200BDD.mvfrm

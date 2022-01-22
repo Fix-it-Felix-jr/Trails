@@ -22,5 +22,6 @@ public class BeatListenerB : MonoBehaviour
             startTransform.x ,
             startTransform.y * (AudioVisualizeManager.Output_Volume + 1),
             startTransform.z );
+            Handheld.Vibrate();
     }
 }

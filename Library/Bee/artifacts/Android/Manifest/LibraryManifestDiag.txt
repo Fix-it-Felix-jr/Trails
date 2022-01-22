@@ -2,6 +2,9 @@ Using template '/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/PlaybackEngines/
 
 android.hardware.vulkan.version was added because:
 	One of the graphics devices was Vulkan
+android.permission.VIBRATE was added because:
+	UnityEngine.Handheld::Vibrate was present in:
+		Assembly-CSharp-FeaturesChecked.txt
 android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch.distinct were enabled because:
 	UnityEngine.Input::get_touches was present in:
 		Unity.RenderPipelines.Core.Runtime-FeaturesChecked.txt
