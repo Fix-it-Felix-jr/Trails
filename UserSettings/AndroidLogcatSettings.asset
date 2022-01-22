@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "21f84460150c7ece",
         "name": "com.DefaultCompany.Trails",
-        "processId": 16572,
+        "processId": 17482,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -264,6 +264,30 @@
             "deviceId": "21f84460150c7ece",
             "name": "com.DefaultCompany.Trails",
             "processId": 16572,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 19251,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 10527,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 16584,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 17482,
             "exited": false
         },
         {

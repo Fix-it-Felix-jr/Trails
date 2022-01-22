@@ -1487,7 +1487,7 @@ ScriptsOnlyBuild:
     className: LeanSpawn
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 53a472fd9697c82beb3d9a5bdfa93f9c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShakeDetect

@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ShakeDetect : MonoBehaviour
 {
@@ -14,6 +16,9 @@ public class ShakeDetect : MonoBehaviour
 
     float lowPassFilterFactor;
     Vector3 lowPassValue;
+    float penalty;
+    float timeLeft;
+    public Text txtPlayerSpeed;
 
     void Start()
     {
@@ -21,8 +26,8 @@ public class ShakeDetect : MonoBehaviour
         shakeDetectionThreshold *= shakeDetectionThreshold;
         lowPassValue = Input.acceleration;
 
-        float timeLeft=5f;
-        float points=0f;
+        timeLeft=0.5f;
+        penalty=0f;
     }
 
     void Update()
@@ -34,16 +39,23 @@ public class ShakeDetect : MonoBehaviour
         timeLeft -= Time.deltaTime;
 
 
-        if (deltaAcceleration.sqrMagnitude >= shakeDetectionThreshold)
+        if (timeLeft<0.1 && deltaAcceleration.sqrMagnitude >= shakeDetectionThreshold)
         {
             // Perform your "shaking actions" here. If necessary, add suitable
             // guards in the if check above to avoid redundant handling during
             // the same shake (e.g. a minimum refractory period).
             Debug.Log("Shake event detected at time "+Time.time);
             Vibrator.Vibrate(20);
-            currentTime = Time.time - continueTime;
-            
-            timeLeft=5f;
+            penalty+=Math.Abs(timeLeft);
+
+            timeLeft=0.5f;
         }
+        if (timeLeft<-10){
+            penalty+=Math.Abs(timeLeft);
+        }
+        txtPlayerSpeed.text = "Penalty: " + Math.Round(penalty, 2).ToString();
+    }
+    public float Penalty(){
+        return penalty;
     }
 }
