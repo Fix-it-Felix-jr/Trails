@@ -6,6 +6,7 @@ public class BeatListenerB : MonoBehaviour
 {
     private Transform targetTransform;
     private Vector3 startTransform;
+    public float sensibility=0.01f;
 
     private void Awake() //I guess I should put most my refrence grabbing on awake not start
     {
@@ -22,6 +23,9 @@ public class BeatListenerB : MonoBehaviour
             startTransform.x ,
             startTransform.y * (AudioVisualizeManager.Output_Volume + 1),
             startTransform.z );
-            Handheld.Vibrate();
+            if(AudioVisualizeManager.Output_Volume>sensibility) {
+                //Handheld.Vibrate();
+
+            }
     }
 }

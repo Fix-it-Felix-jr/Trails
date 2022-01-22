@@ -1,1 +1,6 @@
+UnityEngine.Microphone
+UnityEngine.WWW
 UnityEngine.Handheld::Vibrate
+UnityEngine.Input::get_acceleration
+UnityEngine.Input::GetTouch
+UnityEngine.Input::get_touchCount

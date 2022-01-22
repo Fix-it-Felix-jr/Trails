@@ -379,7 +379,8 @@
         371,
         372,
         373,
-        374
+        374,
+        375
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -440,6 +441,17 @@
       "DebugActionIndex": 5
     },
     {
+      "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libcri_ware_unity.so",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/Plugins/Android/libs/armeabi-v7a/libcri_ware_unity.so"
+      ],
+      "Outputs": [
+        "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libcri_ware_unity.so"
+      ],
+      "DebugActionIndex": 6
+    },
+    {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -448,7 +460,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 6
+      "DebugActionIndex": 7
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -459,7 +471,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 7
+      "DebugActionIndex": 8
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -470,7 +482,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 8
+      "DebugActionIndex": 9
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
@@ -481,7 +493,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 9
+      "DebugActionIndex": 10
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Mono.Security.dll",
@@ -492,7 +504,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.VFXModule.dll",
@@ -503,7 +515,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Data.dll",
@@ -514,7 +526,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
@@ -525,7 +537,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -536,7 +548,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Postprocessing.Runtime.dll",
@@ -547,7 +559,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Postprocessing.Runtime.dll"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.dll",
@@ -558,7 +570,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.dll"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -569,7 +581,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.StreamingModule.dll",
@@ -580,7 +592,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.Unsafe.dll",
@@ -591,7 +603,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.Unsafe.dll"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.WindModule.dll",
@@ -602,7 +614,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -613,7 +625,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Transactions.dll",
@@ -624,7 +636,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -635,7 +647,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.EnterpriseServices.dll",
@@ -646,7 +658,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Numerics.dll",
@@ -657,7 +669,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/LeanTouch.dll",
@@ -668,7 +680,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/LeanTouch.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -679,7 +691,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
@@ -690,7 +702,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll",
@@ -701,7 +713,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Configuration.dll",
@@ -712,7 +724,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.Cecil.dll",
@@ -723,7 +735,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.Cecil.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Data.DataSetExtensions.dll",
@@ -734,7 +746,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -745,7 +757,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -756,7 +768,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Mathematics.dll",
@@ -767,7 +779,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Mathematics.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -778,7 +790,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UIElementsNativeModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UaaLAnalyticsModule.dll",
@@ -789,7 +801,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UaaLAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -800,7 +812,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -811,7 +823,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Security.dll",
@@ -822,7 +834,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Core.dll",
@@ -833,7 +845,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Xml.dll",
@@ -844,7 +856,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.ProBuilder.Csg.dll",
@@ -855,7 +867,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.ProBuilder.Csg.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll",
@@ -866,7 +878,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
@@ -877,7 +889,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -888,7 +900,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.GIModule.dll",
@@ -899,7 +911,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.dll",
@@ -910,7 +922,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.ProBuilder.KdTree.dll",
@@ -921,7 +933,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.ProBuilder.KdTree.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.IO.Compression.dll",
@@ -932,7 +944,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Net.Http.dll",
@@ -943,7 +955,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.ProBuilder.Poly2Tri.dll",
@@ -954,7 +966,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.ProBuilder.Poly2Tri.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AIModule.dll",
@@ -965,7 +977,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TLSModule.dll",
@@ -976,7 +988,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
@@ -987,7 +999,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.Cecil.Rocks.dll",
@@ -998,7 +1010,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.Cecil.Rocks.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ClothModule.dll",
@@ -1009,7 +1021,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.Cecil.Mdb.dll",
@@ -1020,7 +1032,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.Cecil.Mdb.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -1031,7 +1043,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -1042,7 +1054,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -1053,7 +1065,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1064,7 +1076,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1075,7 +1087,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1086,7 +1098,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
@@ -1097,7 +1109,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -1108,7 +1120,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.dll",
@@ -1119,7 +1131,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1130,7 +1142,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -1141,7 +1153,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
@@ -1152,7 +1164,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ARModule.dll",
@@ -1163,7 +1175,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -1174,7 +1186,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.Cecil.Pdb.dll",
@@ -1185,7 +1197,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Burst.Cecil.Pdb.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.DirectorModule.dll",
@@ -1196,7 +1208,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -1207,7 +1219,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1218,7 +1230,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1229,7 +1241,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Runtime.dll",
@@ -1240,7 +1252,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Runtime.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1251,7 +1263,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -1262,7 +1274,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.XRModule.dll",
@@ -1273,7 +1285,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
@@ -1284,7 +1296,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -1295,7 +1307,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1306,7 +1318,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1317,7 +1329,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
@@ -1328,7 +1340,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.InputModule.dll",
@@ -1339,7 +1351,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UNETModule.dll",
@@ -1350,7 +1362,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UNETModule.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/LeanCommon.dll",
@@ -1361,7 +1373,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/LeanCommon.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1372,7 +1384,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -1383,7 +1395,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Timeline.dll",
@@ -1394,7 +1406,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -1405,7 +1417,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1416,7 +1428,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.VideoModule.dll",
@@ -1427,7 +1439,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -1438,7 +1450,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.VRModule.dll",
@@ -1449,7 +1461,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.ServiceModel.Internals.dll",
@@ -1460,7 +1472,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Runtime.Serialization.dll",
@@ -1471,7 +1483,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Newtonsoft.Json.dll",
@@ -1482,7 +1494,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Newtonsoft.Json.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1493,7 +1505,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Drawing.dll",
@@ -1504,7 +1516,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1515,7 +1527,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1526,7 +1538,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1537,7 +1549,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1548,7 +1560,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.ProBuilder.Stl.dll",
@@ -1559,7 +1571,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.ProBuilder.Stl.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
@@ -1570,7 +1582,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/netstandard.dll",
@@ -1581,7 +1593,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
@@ -1592,7 +1604,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/mscorlib.dll",
@@ -1603,7 +1615,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.ComponentModel.Composition.dll",
@@ -1614,7 +1626,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll",
@@ -1625,7 +1637,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -1636,7 +1648,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Xml.Linq.dll",
@@ -1647,7 +1659,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UI.dll",
@@ -1658,7 +1670,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.ProBuilder.dll",
@@ -1669,7 +1681,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Unity.ProBuilder.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/Android/Features/FeatureCheckList.txt",
@@ -1680,7 +1692,7 @@
         "Library/Bee/artifacts/Android/Features/FeatureCheckList.txt"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 118
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.InputLegacyModule-FeaturesChecked.txt_y5my.info",
@@ -1691,7 +1703,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.InputLegacyModule-FeaturesChecked.txt_y5my.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 119
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt",
@@ -1746,12 +1758,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        119
+        119,
+        120
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt_dju7.info",
@@ -1762,7 +1774,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt_dju7.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 121
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt",
@@ -1817,12 +1829,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        121
+        119,
+        122
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AssetBundleModule-FeaturesChecked.txt_1gjh.info",
@@ -1833,7 +1845,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AssetBundleModule-FeaturesChecked.txt_1gjh.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 123
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AssetBundleModule-FeaturesChecked.txt",
@@ -1888,12 +1900,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AssetBundleModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        123
+        119,
+        124
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AudioModule-FeaturesChecked.txt_tbfa.info",
@@ -1904,7 +1916,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AudioModule-FeaturesChecked.txt_tbfa.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 125
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt",
@@ -1959,12 +1971,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AudioModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        125
+        119,
+        126
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Mono.Security-FeaturesChecked.txt_pcel.info",
@@ -1975,7 +1987,7 @@
         "Library/Bee/artifacts/csharpactions/Mono.Security-FeaturesChecked.txt_pcel.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 127
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt",
@@ -2030,12 +2042,12 @@
         "Library/Bee/artifacts/Android/Features/Mono.Security-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        127
+        119,
+        128
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule-FeaturesChecked.txt_r8mm.info",
@@ -2046,7 +2058,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule-FeaturesChecked.txt_r8mm.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 129
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.VFXModule-FeaturesChecked.txt",
@@ -2101,12 +2113,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.VFXModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        129
+        119,
+        130
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Data-FeaturesChecked.txt_r76e.info",
@@ -2117,7 +2129,7 @@
         "Library/Bee/artifacts/csharpactions/System.Data-FeaturesChecked.txt_r76e.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 131
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Data-FeaturesChecked.txt",
@@ -2172,12 +2184,12 @@
         "Library/Bee/artifacts/Android/Features/System.Data-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        131
+        119,
+        132
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary-FeaturesChecked.txt_fury.info",
@@ -2188,7 +2200,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary-FeaturesChecked.txt_fury.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 133
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary-FeaturesChecked.txt",
@@ -2243,12 +2255,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        133
+        119,
+        134
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt_cjxw.info",
@@ -2259,7 +2271,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt_cjxw.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 135
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt",
@@ -2314,12 +2326,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        135
+        119,
+        136
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Postprocessing.Runtime-FeaturesChecked.txt_6gzn.info",
@@ -2330,7 +2342,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.Postprocessing.Runtime-FeaturesChecked.txt_6gzn.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 137
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Postprocessing.Runtime-FeaturesChecked.txt",
@@ -2385,12 +2397,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.Postprocessing.Runtime-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        137
+        119,
+        138
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Burst-FeaturesChecked.txt_5voi.info",
@@ -2401,7 +2413,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.Burst-FeaturesChecked.txt_5voi.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 139
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Burst-FeaturesChecked.txt",
@@ -2456,12 +2468,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.Burst-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        139
+        119,
+        140
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SubstanceModule-FeaturesChecked.txt_3jeb.info",
@@ -2472,7 +2484,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.SubstanceModule-FeaturesChecked.txt_3jeb.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 141
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SubstanceModule-FeaturesChecked.txt",
@@ -2527,12 +2539,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.SubstanceModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        141
+        119,
+        142
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.StreamingModule-FeaturesChecked.txt_hlqf.info",
@@ -2543,7 +2555,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.StreamingModule-FeaturesChecked.txt_hlqf.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 143
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.StreamingModule-FeaturesChecked.txt",
@@ -2598,12 +2610,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.StreamingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        143
+        119,
+        144
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Burst.Unsafe-FeaturesChecked.txt_9x4w.info",
@@ -2614,7 +2626,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.Burst.Unsafe-FeaturesChecked.txt_9x4w.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 145
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Burst.Unsafe-FeaturesChecked.txt",
@@ -2669,12 +2681,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.Burst.Unsafe-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        145
+        119,
+        146
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.WindModule-FeaturesChecked.txt_jjbj.info",
@@ -2685,7 +2697,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.WindModule-FeaturesChecked.txt_jjbj.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 147
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.WindModule-FeaturesChecked.txt",
@@ -2740,12 +2752,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.WindModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        147
+        119,
+        148
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_4rfo.info",
@@ -2756,7 +2768,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_4rfo.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 149
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt",
@@ -2811,12 +2823,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        149
+        119,
+        150
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Transactions-FeaturesChecked.txt_e9ns.info",
@@ -2827,7 +2839,7 @@
         "Library/Bee/artifacts/csharpactions/System.Transactions-FeaturesChecked.txt_e9ns.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 151
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Transactions-FeaturesChecked.txt",
@@ -2882,12 +2894,12 @@
         "Library/Bee/artifacts/Android/Features/System.Transactions-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        151
+        119,
+        152
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt_isnv.info",
@@ -2898,7 +2910,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt_isnv.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 153
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt",
@@ -2953,12 +2965,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        153
+        119,
+        154
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.EnterpriseServices-FeaturesChecked.txt_kuui.info",
@@ -2969,7 +2981,7 @@
         "Library/Bee/artifacts/csharpactions/System.EnterpriseServices-FeaturesChecked.txt_kuui.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 155
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.EnterpriseServices-FeaturesChecked.txt",
@@ -3024,12 +3036,12 @@
         "Library/Bee/artifacts/Android/Features/System.EnterpriseServices-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        155
+        119,
+        156
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Numerics-FeaturesChecked.txt_zs7y.info",
@@ -3040,7 +3052,7 @@
         "Library/Bee/artifacts/csharpactions/System.Numerics-FeaturesChecked.txt_zs7y.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 157
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Numerics-FeaturesChecked.txt",
@@ -3095,12 +3107,12 @@
         "Library/Bee/artifacts/Android/Features/System.Numerics-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        157
+        119,
+        158
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LeanTouch-FeaturesChecked.txt_fyjf.info",
@@ -3111,7 +3123,7 @@
         "Library/Bee/artifacts/csharpactions/LeanTouch-FeaturesChecked.txt_fyjf.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 159
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/LeanTouch-FeaturesChecked.txt",
@@ -3166,12 +3178,12 @@
         "Library/Bee/artifacts/Android/Features/LeanTouch-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        159
+        119,
+        160
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SpriteMaskModule-FeaturesChecked.txt_g2rc.info",
@@ -3182,7 +3194,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.SpriteMaskModule-FeaturesChecked.txt_g2rc.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 161
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt",
@@ -3237,12 +3249,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        161
+        119,
+        162
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TilemapModule-FeaturesChecked.txt_xct4.info",
@@ -3253,7 +3265,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TilemapModule-FeaturesChecked.txt_xct4.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 163
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt",
@@ -3308,12 +3320,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TilemapModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        163
+        119,
+        164
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AnimationModule-FeaturesChecked.txt_3sdh.info",
@@ -3324,7 +3336,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AnimationModule-FeaturesChecked.txt_3sdh.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 165
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt",
@@ -3379,12 +3391,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AnimationModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        165
+        119,
+        166
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Configuration-FeaturesChecked.txt_vfp9.info",
@@ -3395,7 +3407,7 @@
         "Library/Bee/artifacts/csharpactions/System.Configuration-FeaturesChecked.txt_vfp9.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 167
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt",
@@ -3450,12 +3462,12 @@
         "Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        167
+        119,
+        168
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Burst.Cecil-FeaturesChecked.txt_v3gc.info",
@@ -3466,7 +3478,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.Burst.Cecil-FeaturesChecked.txt_v3gc.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 169
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Burst.Cecil-FeaturesChecked.txt",
@@ -3521,12 +3533,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.Burst.Cecil-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        169
+        119,
+        170
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Data.DataSetExtensions-FeaturesChecked.txt_p7rm.info",
@@ -3537,7 +3549,7 @@
         "Library/Bee/artifacts/csharpactions/System.Data.DataSetExtensions-FeaturesChecked.txt_p7rm.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 171
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Data.DataSetExtensions-FeaturesChecked.txt",
@@ -3592,12 +3604,12 @@
         "Library/Bee/artifacts/Android/Features/System.Data.DataSetExtensions-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        171
+        119,
+        172
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt_dsz7.info",
@@ -3608,7 +3620,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt_dsz7.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 173
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt",
@@ -3663,12 +3675,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        173
+        119,
+        174
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt_2b9e.info",
@@ -3679,7 +3691,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt_2b9e.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 175
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt",
@@ -3734,12 +3746,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        175
+        119,
+        176
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Mathematics-FeaturesChecked.txt_bwkn.info",
@@ -3750,7 +3762,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.Mathematics-FeaturesChecked.txt_bwkn.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 177
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Mathematics-FeaturesChecked.txt",
@@ -3805,12 +3817,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.Mathematics-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        177
+        119,
+        178
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt_9nb4.info",
@@ -3821,7 +3833,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt_9nb4.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 179
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt",
@@ -3876,12 +3888,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsNativeModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        179
+        119,
+        180
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UaaLAnalyticsModule-FeaturesChecked.txt_aiwm.info",
@@ -3892,7 +3904,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UaaLAnalyticsModule-FeaturesChecked.txt_aiwm.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 181
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UaaLAnalyticsModule-FeaturesChecked.txt",
@@ -3947,12 +3959,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UaaLAnalyticsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        181
+        119,
+        182
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AccessibilityModule-FeaturesChecked.txt_ttts.info",
@@ -3963,7 +3975,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AccessibilityModule-FeaturesChecked.txt_ttts.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 183
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt",
@@ -4018,12 +4030,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        183
+        119,
+        184
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 184
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt_15vy.info",
@@ -4034,7 +4046,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt_15vy.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 185
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt",
@@ -4089,12 +4101,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        185
+        119,
+        186
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 186
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Security-FeaturesChecked.txt_pdzz.info",
@@ -4105,7 +4117,7 @@
         "Library/Bee/artifacts/csharpactions/System.Security-FeaturesChecked.txt_pdzz.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 187
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Security-FeaturesChecked.txt",
@@ -4160,12 +4172,12 @@
         "Library/Bee/artifacts/Android/Features/System.Security-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        187
+        119,
+        188
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 188
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Core-FeaturesChecked.txt_k2yd.info",
@@ -4176,7 +4188,7 @@
         "Library/Bee/artifacts/csharpactions/System.Core-FeaturesChecked.txt_k2yd.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 189
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt",
@@ -4231,12 +4243,12 @@
         "Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        189
+        119,
+        190
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 190
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Xml-FeaturesChecked.txt_wnnz.info",
@@ -4247,7 +4259,7 @@
         "Library/Bee/artifacts/csharpactions/System.Xml-FeaturesChecked.txt_wnnz.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 191
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt",
@@ -4302,12 +4314,12 @@
         "Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        191
+        119,
+        192
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 192
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.ProBuilder.Csg-FeaturesChecked.txt_kcl4.info",
@@ -4318,7 +4330,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.ProBuilder.Csg-FeaturesChecked.txt_kcl4.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 193
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.ProBuilder.Csg-FeaturesChecked.txt",
@@ -4373,12 +4385,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.ProBuilder.Csg-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        193
+        119,
+        194
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 194
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Assembly-CSharp-FeaturesChecked.txt_ki5r.info",
@@ -4389,7 +4401,7 @@
         "Library/Bee/artifacts/csharpactions/Assembly-CSharp-FeaturesChecked.txt_ki5r.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 195
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt",
@@ -4444,12 +4456,12 @@
         "Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        195
+        119,
+        196
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 196
+      "DebugActionIndex": 197
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.RenderPipelines.Universal.Runtime-FeaturesChecked.txt_7fk5.info",
@@ -4460,7 +4472,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.RenderPipelines.Universal.Runtime-FeaturesChecked.txt_7fk5.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 197
+      "DebugActionIndex": 198
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Universal.Runtime-FeaturesChecked.txt",
@@ -4515,12 +4527,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Universal.Runtime-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        197
+        119,
+        198
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 198
+      "DebugActionIndex": 199
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextRenderingModule-FeaturesChecked.txt_ighi.info",
@@ -4531,7 +4543,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextRenderingModule-FeaturesChecked.txt_ighi.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 199
+      "DebugActionIndex": 200
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt",
@@ -4586,12 +4598,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        199
+        119,
+        200
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 200
+      "DebugActionIndex": 201
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GIModule-FeaturesChecked.txt_xq4v.info",
@@ -4602,7 +4614,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.GIModule-FeaturesChecked.txt_xq4v.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 201
+      "DebugActionIndex": 202
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.GIModule-FeaturesChecked.txt",
@@ -4657,12 +4669,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.GIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        201
+        119,
+        202
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 202
+      "DebugActionIndex": 203
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System-FeaturesChecked.txt_v90b.info",
@@ -4673,7 +4685,7 @@
         "Library/Bee/artifacts/csharpactions/System-FeaturesChecked.txt_v90b.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 203
+      "DebugActionIndex": 204
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt",
@@ -4728,12 +4740,12 @@
         "Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        203
+        119,
+        204
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 204
+      "DebugActionIndex": 205
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.ProBuilder.KdTree-FeaturesChecked.txt_sgfs.info",
@@ -4744,7 +4756,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.ProBuilder.KdTree-FeaturesChecked.txt_sgfs.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 205
+      "DebugActionIndex": 206
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.ProBuilder.KdTree-FeaturesChecked.txt",
@@ -4799,12 +4811,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.ProBuilder.KdTree-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        205
+        119,
+        206
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 206
+      "DebugActionIndex": 207
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.IO.Compression-FeaturesChecked.txt_ziug.info",
@@ -4815,7 +4827,7 @@
         "Library/Bee/artifacts/csharpactions/System.IO.Compression-FeaturesChecked.txt_ziug.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 207
+      "DebugActionIndex": 208
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.IO.Compression-FeaturesChecked.txt",
@@ -4870,12 +4882,12 @@
         "Library/Bee/artifacts/Android/Features/System.IO.Compression-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        207
+        119,
+        208
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 208
+      "DebugActionIndex": 209
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Net.Http-FeaturesChecked.txt_6zy9.info",
@@ -4886,7 +4898,7 @@
         "Library/Bee/artifacts/csharpactions/System.Net.Http-FeaturesChecked.txt_6zy9.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 209
+      "DebugActionIndex": 210
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Net.Http-FeaturesChecked.txt",
@@ -4941,12 +4953,12 @@
         "Library/Bee/artifacts/Android/Features/System.Net.Http-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        209
+        119,
+        210
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 210
+      "DebugActionIndex": 211
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.ProBuilder.Poly2Tri-FeaturesChecked.txt_yy1d.info",
@@ -4957,7 +4969,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.ProBuilder.Poly2Tri-FeaturesChecked.txt_yy1d.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 211
+      "DebugActionIndex": 212
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.ProBuilder.Poly2Tri-FeaturesChecked.txt",
@@ -5012,12 +5024,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.ProBuilder.Poly2Tri-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        211
+        119,
+        212
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 212
+      "DebugActionIndex": 213
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AIModule-FeaturesChecked.txt_jr17.info",
@@ -5028,7 +5040,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AIModule-FeaturesChecked.txt_jr17.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 213
+      "DebugActionIndex": 214
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AIModule-FeaturesChecked.txt",
@@ -5083,12 +5095,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        213
+        119,
+        214
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 214
+      "DebugActionIndex": 215
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule-FeaturesChecked.txt_i3n3.info",
@@ -5099,7 +5111,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule-FeaturesChecked.txt_i3n3.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 215
+      "DebugActionIndex": 216
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TLSModule-FeaturesChecked.txt",
@@ -5154,12 +5166,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TLSModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        215
+        119,
+        216
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 216
+      "DebugActionIndex": 217
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.RenderPipelines.Universal.Shaders-FeaturesChecked.txt_tk15.info",
@@ -5170,7 +5182,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.RenderPipelines.Universal.Shaders-FeaturesChecked.txt_tk15.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 217
+      "DebugActionIndex": 218
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Universal.Shaders-FeaturesChecked.txt",
@@ -5225,12 +5237,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Universal.Shaders-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        217
+        119,
+        218
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 218
+      "DebugActionIndex": 219
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Burst.Cecil.Rocks-FeaturesChecked.txt_z2ou.info",
@@ -5241,7 +5253,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.Burst.Cecil.Rocks-FeaturesChecked.txt_z2ou.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 219
+      "DebugActionIndex": 220
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Burst.Cecil.Rocks-FeaturesChecked.txt",
@@ -5296,12 +5308,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.Burst.Cecil.Rocks-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        219
+        119,
+        220
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 220
+      "DebugActionIndex": 221
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ClothModule-FeaturesChecked.txt_t4wd.info",
@@ -5312,7 +5324,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ClothModule-FeaturesChecked.txt_t4wd.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 221
+      "DebugActionIndex": 222
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ClothModule-FeaturesChecked.txt",
@@ -5367,12 +5379,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ClothModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        221
+        119,
+        222
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 222
+      "DebugActionIndex": 223
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Burst.Cecil.Mdb-FeaturesChecked.txt_kpkw.info",
@@ -5383,7 +5395,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.Burst.Cecil.Mdb-FeaturesChecked.txt_kpkw.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 223
+      "DebugActionIndex": 224
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Burst.Cecil.Mdb-FeaturesChecked.txt",
@@ -5438,12 +5450,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.Burst.Cecil.Mdb-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        223
+        119,
+        224
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 224
+      "DebugActionIndex": 225
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt_pjc8.info",
@@ -5454,7 +5466,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt_pjc8.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 225
+      "DebugActionIndex": 226
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt",
@@ -5509,12 +5521,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        225
+        119,
+        226
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 226
+      "DebugActionIndex": 227
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule-FeaturesChecked.txt_x3ln.info",
@@ -5525,7 +5537,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule-FeaturesChecked.txt_x3ln.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 227
+      "DebugActionIndex": 228
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt",
@@ -5580,12 +5592,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        227
+        119,
+        228
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 228
+      "DebugActionIndex": 229
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.CrashReportingModule-FeaturesChecked.txt_yrdm.info",
@@ -5596,7 +5608,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.CrashReportingModule-FeaturesChecked.txt_yrdm.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 229
+      "DebugActionIndex": 230
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt",
@@ -5651,12 +5663,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        229
+        119,
+        230
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 230
+      "DebugActionIndex": 231
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.IO.Compression.FileSystem-FeaturesChecked.txt_8xhs.info",
@@ -5667,7 +5679,7 @@
         "Library/Bee/artifacts/csharpactions/System.IO.Compression.FileSystem-FeaturesChecked.txt_8xhs.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 231
+      "DebugActionIndex": 232
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt",
@@ -5722,12 +5734,12 @@
         "Library/Bee/artifacts/Android/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        231
+        119,
+        232
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 232
+      "DebugActionIndex": 233
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UmbraModule-FeaturesChecked.txt_sk2p.info",
@@ -5738,7 +5750,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UmbraModule-FeaturesChecked.txt_sk2p.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 233
+      "DebugActionIndex": 234
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UmbraModule-FeaturesChecked.txt",
@@ -5793,12 +5805,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UmbraModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        233
+        119,
+        234
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 234
+      "DebugActionIndex": 235
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule-FeaturesChecked.txt_vzqa.info",
@@ -5809,7 +5821,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule-FeaturesChecked.txt_vzqa.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 235
+      "DebugActionIndex": 236
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt",
@@ -5864,12 +5876,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        235
+        119,
+        236
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 236
+      "DebugActionIndex": 237
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIModule-FeaturesChecked.txt_zatd.info",
@@ -5880,7 +5892,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UIModule-FeaturesChecked.txt_zatd.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 237
+      "DebugActionIndex": 238
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt",
@@ -5935,12 +5947,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        237
+        119,
+        238
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 238
+      "DebugActionIndex": 239
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ParticleSystemModule-FeaturesChecked.txt_kapj.info",
@@ -5951,7 +5963,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ParticleSystemModule-FeaturesChecked.txt_kapj.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 239
+      "DebugActionIndex": 240
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt",
@@ -6006,12 +6018,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        239
+        119,
+        240
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 240
+      "DebugActionIndex": 241
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine-FeaturesChecked.txt_x1ug.info",
@@ -6022,7 +6034,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine-FeaturesChecked.txt_x1ug.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 241
+      "DebugActionIndex": 242
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt",
@@ -6077,12 +6089,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        241
+        119,
+        242
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 242
+      "DebugActionIndex": 243
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule-FeaturesChecked.txt_sm9d.info",
@@ -6093,7 +6105,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule-FeaturesChecked.txt_sm9d.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 243
+      "DebugActionIndex": 244
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt",
@@ -6148,12 +6160,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        243
+        119,
+        244
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 244
+      "DebugActionIndex": 245
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule-FeaturesChecked.txt_vjsc.info",
@@ -6164,7 +6176,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule-FeaturesChecked.txt_vjsc.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 245
+      "DebugActionIndex": 246
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt",
@@ -6219,12 +6231,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        245
+        119,
+        246
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 246
+      "DebugActionIndex": 247
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.RenderPipelines.Core.ShaderLibrary-FeaturesChecked.txt_rzze.info",
@@ -6235,7 +6247,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.RenderPipelines.Core.ShaderLibrary-FeaturesChecked.txt_rzze.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 247
+      "DebugActionIndex": 248
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Core.ShaderLibrary-FeaturesChecked.txt",
@@ -6290,12 +6302,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Core.ShaderLibrary-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        247
+        119,
+        248
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 248
+      "DebugActionIndex": 249
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ARModule-FeaturesChecked.txt_crib.info",
@@ -6306,7 +6318,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ARModule-FeaturesChecked.txt_crib.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 249
+      "DebugActionIndex": 250
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ARModule-FeaturesChecked.txt",
@@ -6361,12 +6373,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ARModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        249
+        119,
+        250
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 250
+      "DebugActionIndex": 251
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.IMGUIModule-FeaturesChecked.txt_ufk2.info",
@@ -6377,7 +6389,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.IMGUIModule-FeaturesChecked.txt_ufk2.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 251
+      "DebugActionIndex": 252
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt",
@@ -6432,12 +6444,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        251
+        119,
+        252
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 252
+      "DebugActionIndex": 253
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Burst.Cecil.Pdb-FeaturesChecked.txt_r8td.info",
@@ -6448,7 +6460,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.Burst.Cecil.Pdb-FeaturesChecked.txt_r8td.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 253
+      "DebugActionIndex": 254
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Burst.Cecil.Pdb-FeaturesChecked.txt",
@@ -6503,12 +6515,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.Burst.Cecil.Pdb-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        253
+        119,
+        254
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 254
+      "DebugActionIndex": 255
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.DirectorModule-FeaturesChecked.txt_ruda.info",
@@ -6519,7 +6531,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.DirectorModule-FeaturesChecked.txt_ruda.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 255
+      "DebugActionIndex": 256
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.DirectorModule-FeaturesChecked.txt",
@@ -6574,12 +6586,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.DirectorModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        255
+        119,
+        256
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 256
+      "DebugActionIndex": 257
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ImageConversionModule-FeaturesChecked.txt_cml2.info",
@@ -6590,7 +6602,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ImageConversionModule-FeaturesChecked.txt_cml2.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 257
+      "DebugActionIndex": 258
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt",
@@ -6645,12 +6657,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        257
+        119,
+        258
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 258
+      "DebugActionIndex": 259
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_el85.info",
@@ -6661,7 +6673,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_el85.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 259
+      "DebugActionIndex": 260
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt",
@@ -6716,12 +6728,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        259
+        119,
+        260
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 260
+      "DebugActionIndex": 261
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule-FeaturesChecked.txt_2l1t.info",
@@ -6732,7 +6744,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule-FeaturesChecked.txt_2l1t.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 261
+      "DebugActionIndex": 262
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt",
@@ -6787,12 +6799,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        261
+        119,
+        262
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 262
+      "DebugActionIndex": 263
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Runtime-FeaturesChecked.txt_lyog.info",
@@ -6803,7 +6815,7 @@
         "Library/Bee/artifacts/csharpactions/System.Runtime-FeaturesChecked.txt_lyog.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 263
+      "DebugActionIndex": 264
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Runtime-FeaturesChecked.txt",
@@ -6858,12 +6870,12 @@
         "Library/Bee/artifacts/Android/Features/System.Runtime-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        263
+        119,
+        264
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 264
+      "DebugActionIndex": 265
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityConnectModule-FeaturesChecked.txt_ck2r.info",
@@ -6874,7 +6886,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityConnectModule-FeaturesChecked.txt_ck2r.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 265
+      "DebugActionIndex": 266
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityConnectModule-FeaturesChecked.txt",
@@ -6929,12 +6941,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityConnectModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        265
+        119,
+        266
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 266
+      "DebugActionIndex": 267
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GameCenterModule-FeaturesChecked.txt_mquo.info",
@@ -6945,7 +6957,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.GameCenterModule-FeaturesChecked.txt_mquo.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 267
+      "DebugActionIndex": 268
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt",
@@ -7000,12 +7012,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        267
+        119,
+        268
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 268
+      "DebugActionIndex": 269
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.XRModule-FeaturesChecked.txt_xks3.info",
@@ -7016,7 +7028,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.XRModule-FeaturesChecked.txt_xks3.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 269
+      "DebugActionIndex": 270
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.XRModule-FeaturesChecked.txt",
@@ -7071,12 +7083,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.XRModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        269
+        119,
+        270
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 270
+      "DebugActionIndex": 271
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.RenderPipelines.Core.Runtime-FeaturesChecked.txt_9rh7.info",
@@ -7087,7 +7099,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.RenderPipelines.Core.Runtime-FeaturesChecked.txt_9rh7.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 271
+      "DebugActionIndex": 272
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Core.Runtime-FeaturesChecked.txt",
@@ -7142,12 +7154,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Core.Runtime-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        271
+        119,
+        272
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 272
+      "DebugActionIndex": 273
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.LocalizationModule-FeaturesChecked.txt_c5g9.info",
@@ -7158,7 +7170,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.LocalizationModule-FeaturesChecked.txt_c5g9.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 273
+      "DebugActionIndex": 274
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.LocalizationModule-FeaturesChecked.txt",
@@ -7213,12 +7225,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.LocalizationModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        273
+        119,
+        274
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 274
+      "DebugActionIndex": 275
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule-FeaturesChecked.txt_aabo.info",
@@ -7229,7 +7241,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule-FeaturesChecked.txt_aabo.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 275
+      "DebugActionIndex": 276
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt",
@@ -7284,12 +7296,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        275
+        119,
+        276
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 276
+      "DebugActionIndex": 277
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt_jk15.info",
@@ -7300,7 +7312,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt_jk15.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 277
+      "DebugActionIndex": 278
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt",
@@ -7355,12 +7367,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        277
+        119,
+        278
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 278
+      "DebugActionIndex": 279
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.RenderPipeline.Universal.ShaderLibrary-FeaturesChecked.txt_erxn.info",
@@ -7371,7 +7383,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.RenderPipeline.Universal.ShaderLibrary-FeaturesChecked.txt_erxn.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 279
+      "DebugActionIndex": 280
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipeline.Universal.ShaderLibrary-FeaturesChecked.txt",
@@ -7426,12 +7438,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.RenderPipeline.Universal.ShaderLibrary-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        279
+        119,
+        280
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 280
+      "DebugActionIndex": 281
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.InputModule-FeaturesChecked.txt_xblj.info",
@@ -7442,7 +7454,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.InputModule-FeaturesChecked.txt_xblj.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 281
+      "DebugActionIndex": 282
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.InputModule-FeaturesChecked.txt",
@@ -7497,12 +7509,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.InputModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        281
+        119,
+        282
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 282
+      "DebugActionIndex": 283
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UNETModule-FeaturesChecked.txt_v8z7.info",
@@ -7513,7 +7525,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UNETModule-FeaturesChecked.txt_v8z7.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 283
+      "DebugActionIndex": 284
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UNETModule-FeaturesChecked.txt",
@@ -7568,12 +7580,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UNETModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        283
+        119,
+        284
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 284
+      "DebugActionIndex": 285
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LeanCommon-FeaturesChecked.txt_pbm9.info",
@@ -7584,7 +7596,7 @@
         "Library/Bee/artifacts/csharpactions/LeanCommon-FeaturesChecked.txt_pbm9.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 285
+      "DebugActionIndex": 286
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/LeanCommon-FeaturesChecked.txt",
@@ -7639,12 +7651,12 @@
         "Library/Bee/artifacts/Android/Features/LeanCommon-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        285
+        119,
+        286
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 286
+      "DebugActionIndex": 287
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VehiclesModule-FeaturesChecked.txt_a1wc.info",
@@ -7655,7 +7667,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.VehiclesModule-FeaturesChecked.txt_a1wc.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 287
+      "DebugActionIndex": 288
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.VehiclesModule-FeaturesChecked.txt",
@@ -7710,12 +7722,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.VehiclesModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        287
+        119,
+        288
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 288
+      "DebugActionIndex": 289
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule-FeaturesChecked.txt_45hf.info",
@@ -7726,7 +7738,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule-FeaturesChecked.txt_45hf.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 289
+      "DebugActionIndex": 290
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt",
@@ -7781,12 +7793,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        289
+        119,
+        290
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 290
+      "DebugActionIndex": 291
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Timeline-FeaturesChecked.txt_in83.info",
@@ -7797,7 +7809,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.Timeline-FeaturesChecked.txt_in83.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 291
+      "DebugActionIndex": 292
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Timeline-FeaturesChecked.txt",
@@ -7852,12 +7864,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.Timeline-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        291
+        119,
+        292
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 292
+      "DebugActionIndex": 293
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt_tunv.info",
@@ -7868,7 +7880,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt_tunv.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 293
+      "DebugActionIndex": 294
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt",
@@ -7923,12 +7935,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        293
+        119,
+        294
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 294
+      "DebugActionIndex": 295
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt_eosx.info",
@@ -7939,7 +7951,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt_eosx.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 295
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt",
@@ -7994,12 +8006,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        295
+        119,
+        296
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 296
+      "DebugActionIndex": 297
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VideoModule-FeaturesChecked.txt_2ixs.info",
@@ -8010,7 +8022,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.VideoModule-FeaturesChecked.txt_2ixs.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 297
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.VideoModule-FeaturesChecked.txt",
@@ -8065,12 +8077,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.VideoModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        297
+        119,
+        298
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 298
+      "DebugActionIndex": 299
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.HotReloadModule-FeaturesChecked.txt_hu6r.info",
@@ -8081,7 +8093,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.HotReloadModule-FeaturesChecked.txt_hu6r.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 299
+      "DebugActionIndex": 300
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt",
@@ -8136,12 +8148,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        299
+        119,
+        300
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 300
+      "DebugActionIndex": 301
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VRModule-FeaturesChecked.txt_nz9x.info",
@@ -8152,7 +8164,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.VRModule-FeaturesChecked.txt_nz9x.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 301
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.VRModule-FeaturesChecked.txt",
@@ -8207,12 +8219,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.VRModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        301
+        119,
+        302
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 302
+      "DebugActionIndex": 303
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.ServiceModel.Internals-FeaturesChecked.txt_het8.info",
@@ -8223,7 +8235,7 @@
         "Library/Bee/artifacts/csharpactions/System.ServiceModel.Internals-FeaturesChecked.txt_het8.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 303
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.ServiceModel.Internals-FeaturesChecked.txt",
@@ -8278,12 +8290,12 @@
         "Library/Bee/artifacts/Android/Features/System.ServiceModel.Internals-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        303
+        119,
+        304
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 304
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Runtime.Serialization-FeaturesChecked.txt_b9hm.info",
@@ -8294,7 +8306,7 @@
         "Library/Bee/artifacts/csharpactions/System.Runtime.Serialization-FeaturesChecked.txt_b9hm.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 305
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Runtime.Serialization-FeaturesChecked.txt",
@@ -8349,12 +8361,12 @@
         "Library/Bee/artifacts/Android/Features/System.Runtime.Serialization-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        305
+        119,
+        306
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 306
+      "DebugActionIndex": 307
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Newtonsoft.Json-FeaturesChecked.txt_730i.info",
@@ -8365,7 +8377,7 @@
         "Library/Bee/artifacts/csharpactions/Newtonsoft.Json-FeaturesChecked.txt_730i.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 307
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Newtonsoft.Json-FeaturesChecked.txt",
@@ -8420,12 +8432,12 @@
         "Library/Bee/artifacts/Android/Features/Newtonsoft.Json-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        307
+        119,
+        308
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 308
+      "DebugActionIndex": 309
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule-FeaturesChecked.txt_zrrh.info",
@@ -8436,7 +8448,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule-FeaturesChecked.txt_zrrh.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 309
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt",
@@ -8491,12 +8503,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        309
+        119,
+        310
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 310
+      "DebugActionIndex": 311
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Drawing-FeaturesChecked.txt_f5g4.info",
@@ -8507,7 +8519,7 @@
         "Library/Bee/artifacts/csharpactions/System.Drawing-FeaturesChecked.txt_f5g4.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 311
+      "DebugActionIndex": 312
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Drawing-FeaturesChecked.txt",
@@ -8562,12 +8574,12 @@
         "Library/Bee/artifacts/Android/Features/System.Drawing-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        311
+        119,
+        312
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 312
+      "DebugActionIndex": 313
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ProfilerModule-FeaturesChecked.txt_8pk7.info",
@@ -8578,7 +8590,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.ProfilerModule-FeaturesChecked.txt_8pk7.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 313
+      "DebugActionIndex": 314
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.ProfilerModule-FeaturesChecked.txt",
@@ -8633,12 +8645,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.ProfilerModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        313
+        119,
+        314
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 314
+      "DebugActionIndex": 315
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityCurlModule-FeaturesChecked.txt_k4qz.info",
@@ -8649,7 +8661,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityCurlModule-FeaturesChecked.txt_k4qz.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 315
+      "DebugActionIndex": 316
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt",
@@ -8704,12 +8716,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        315
+        119,
+        316
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 316
+      "DebugActionIndex": 317
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt_1uoh.info",
@@ -8720,7 +8732,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt_1uoh.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 317
+      "DebugActionIndex": 318
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt",
@@ -8775,12 +8787,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        317
+        119,
+        318
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 318
+      "DebugActionIndex": 319
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TerrainModule-FeaturesChecked.txt_wybo.info",
@@ -8791,7 +8803,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.TerrainModule-FeaturesChecked.txt_wybo.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 319
+      "DebugActionIndex": 320
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TerrainModule-FeaturesChecked.txt",
@@ -8846,12 +8858,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.TerrainModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        319
+        119,
+        320
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 320
+      "DebugActionIndex": 321
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.ProBuilder.Stl-FeaturesChecked.txt_g2v3.info",
@@ -8862,7 +8874,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.ProBuilder.Stl-FeaturesChecked.txt_g2v3.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 321
+      "DebugActionIndex": 322
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.ProBuilder.Stl-FeaturesChecked.txt",
@@ -8917,12 +8929,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.ProBuilder.Stl-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        321
+        119,
+        322
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 322
+      "DebugActionIndex": 323
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule-FeaturesChecked.txt_uimb.info",
@@ -8933,7 +8945,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule-FeaturesChecked.txt_uimb.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 323
+      "DebugActionIndex": 324
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt",
@@ -8988,12 +9000,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        323
+        119,
+        324
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 324
+      "DebugActionIndex": 325
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/netstandard-FeaturesChecked.txt_gaje.info",
@@ -9004,7 +9016,7 @@
         "Library/Bee/artifacts/csharpactions/netstandard-FeaturesChecked.txt_gaje.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 325
+      "DebugActionIndex": 326
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/netstandard-FeaturesChecked.txt",
@@ -9059,12 +9071,12 @@
         "Library/Bee/artifacts/Android/Features/netstandard-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        325
+        119,
+        326
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 326
+      "DebugActionIndex": 327
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GridModule-FeaturesChecked.txt_5p9t.info",
@@ -9075,7 +9087,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.GridModule-FeaturesChecked.txt_5p9t.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 327
+      "DebugActionIndex": 328
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt",
@@ -9130,12 +9142,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.GridModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        327
+        119,
+        328
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 328
+      "DebugActionIndex": 329
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_pwj8.info",
@@ -9146,7 +9158,7 @@
         "Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_pwj8.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 329
+      "DebugActionIndex": 330
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt",
@@ -9201,12 +9213,12 @@
         "Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        329
+        119,
+        330
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 330
+      "DebugActionIndex": 331
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.ComponentModel.Composition-FeaturesChecked.txt_1seo.info",
@@ -9217,7 +9229,7 @@
         "Library/Bee/artifacts/csharpactions/System.ComponentModel.Composition-FeaturesChecked.txt_1seo.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 331
+      "DebugActionIndex": 332
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.ComponentModel.Composition-FeaturesChecked.txt",
@@ -9272,12 +9284,12 @@
         "Library/Bee/artifacts/Android/Features/System.ComponentModel.Composition-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        331
+        119,
+        332
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 332
+      "DebugActionIndex": 333
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.TextMeshPro-FeaturesChecked.txt_c7od.info",
@@ -9288,7 +9300,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.TextMeshPro-FeaturesChecked.txt_c7od.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 333
+      "DebugActionIndex": 334
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt",
@@ -9343,12 +9355,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        333
+        119,
+        334
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 334
+      "DebugActionIndex": 335
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.DSPGraphModule-FeaturesChecked.txt_sa00.info",
@@ -9359,7 +9371,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.DSPGraphModule-FeaturesChecked.txt_sa00.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 335
+      "DebugActionIndex": 336
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt",
@@ -9414,12 +9426,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        335
+        119,
+        336
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 336
+      "DebugActionIndex": 337
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Xml.Linq-FeaturesChecked.txt_ghye.info",
@@ -9430,7 +9442,7 @@
         "Library/Bee/artifacts/csharpactions/System.Xml.Linq-FeaturesChecked.txt_ghye.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 337
+      "DebugActionIndex": 338
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Xml.Linq-FeaturesChecked.txt",
@@ -9485,12 +9497,12 @@
         "Library/Bee/artifacts/Android/Features/System.Xml.Linq-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        337
+        119,
+        338
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 338
+      "DebugActionIndex": 339
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_v0bu.info",
@@ -9501,7 +9513,7 @@
         "Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_v0bu.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 339
+      "DebugActionIndex": 340
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt",
@@ -9556,12 +9568,12 @@
         "Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        339
+        119,
+        340
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 340
+      "DebugActionIndex": 341
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.ProBuilder-FeaturesChecked.txt_vb7b.info",
@@ -9572,7 +9584,7 @@
         "Library/Bee/artifacts/csharpactions/Unity.ProBuilder-FeaturesChecked.txt_vb7b.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 341
+      "DebugActionIndex": 342
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.ProBuilder-FeaturesChecked.txt",
@@ -9627,12 +9639,12 @@
         "Library/Bee/artifacts/Android/Features/Unity.ProBuilder-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        118,
-        341
+        119,
+        342
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 342
+      "DebugActionIndex": 343
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources",
@@ -9643,7 +9655,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources"
       ],
-      "DebugActionIndex": 343
+      "DebugActionIndex": 344
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_bmtm.info",
@@ -9654,7 +9666,7 @@
         "Library/Bee/artifacts/csharpactions/build.gradle_bmtm.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 344
+      "DebugActionIndex": 345
     },
     {
       "Annotation": "ActionGenerateProjectFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/build.gradle (+5 others)",
@@ -9686,11 +9698,11 @@
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/settings.gradle"
       ],
       "ToBuildDependencies": [
-        344
+        345
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 345
+      "DebugActionIndex": 346
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/proguard-unity.txt",
@@ -9701,7 +9713,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/proguard-unity.txt"
       ],
-      "DebugActionIndex": 346
+      "DebugActionIndex": 347
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
@@ -9712,7 +9724,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
       ],
-      "DebugActionIndex": 347
+      "DebugActionIndex": 348
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -9723,7 +9735,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/libs/unity-classes.jar"
       ],
-      "DebugActionIndex": 348
+      "DebugActionIndex": 349
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/ids.xml",
@@ -9734,7 +9746,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/ids.xml"
       ],
-      "DebugActionIndex": 349
+      "DebugActionIndex": 350
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values-v21/styles.xml",
@@ -9745,7 +9757,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 350
+      "DebugActionIndex": 351
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/styles.xml",
@@ -9756,7 +9768,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 351
+      "DebugActionIndex": 352
     },
     {
       "Annotation": "WriteText /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values-v28/styles.xml",
@@ -9767,7 +9779,7 @@
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values-v28/styles.xml"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 352
+      "DebugActionIndex": 353
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -9778,7 +9790,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 353
+      "DebugActionIndex": 354
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -9789,7 +9801,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 354
+      "DebugActionIndex": 355
     },
     {
       "Annotation": "WriteText /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v28/styles.xml",
@@ -9800,7 +9812,7 @@
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 355
+      "DebugActionIndex": 356
     },
     {
       "Annotation": "WriteText /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml",
@@ -9811,7 +9823,7 @@
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 356
+      "DebugActionIndex": 357
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
@@ -9822,7 +9834,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
       ],
-      "DebugActionIndex": 357
+      "DebugActionIndex": 358
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
@@ -9833,7 +9845,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
       ],
-      "DebugActionIndex": 358
+      "DebugActionIndex": 359
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -9844,7 +9856,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
-      "DebugActionIndex": 359
+      "DebugActionIndex": 360
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
@@ -9855,7 +9867,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
-      "DebugActionIndex": 360
+      "DebugActionIndex": 361
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
@@ -9866,7 +9878,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 361
+      "DebugActionIndex": 362
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -9877,7 +9889,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 362
+      "DebugActionIndex": 363
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -9888,7 +9900,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 363
+      "DebugActionIndex": 364
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -9899,7 +9911,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 364
+      "DebugActionIndex": 365
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so",
@@ -9910,7 +9922,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so"
       ],
-      "DebugActionIndex": 365
+      "DebugActionIndex": 366
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so",
@@ -9921,7 +9933,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so"
       ],
-      "DebugActionIndex": 366
+      "DebugActionIndex": 367
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
@@ -9932,7 +9944,7 @@
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 367
+      "DebugActionIndex": 368
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -10070,123 +10082,123 @@
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml"
       ],
       "ToBuildDependencies": [
-        120,
-        122,
-        124,
-        126,
-        128,
-        130,
-        132,
-        134,
-        136,
-        138,
-        140,
-        142,
-        144,
-        146,
-        148,
-        150,
-        152,
-        154,
-        156,
-        158,
-        160,
-        162,
-        164,
-        166,
-        168,
-        170,
-        172,
-        174,
-        176,
-        178,
-        180,
-        182,
-        184,
-        186,
-        188,
-        190,
-        192,
-        194,
-        196,
-        198,
-        200,
-        202,
-        204,
-        206,
-        208,
-        210,
-        212,
-        214,
-        216,
-        218,
-        220,
-        222,
-        224,
-        226,
-        228,
-        230,
-        232,
-        234,
-        236,
-        238,
-        240,
-        242,
-        244,
-        246,
-        248,
-        250,
-        252,
-        254,
-        256,
-        258,
-        260,
-        262,
-        264,
-        266,
-        268,
-        270,
-        272,
-        274,
-        276,
-        278,
-        280,
-        282,
-        284,
-        286,
-        288,
-        290,
-        292,
-        294,
-        296,
-        298,
-        300,
-        302,
-        304,
-        306,
-        308,
-        310,
-        312,
-        314,
-        316,
-        318,
-        320,
-        322,
-        324,
-        326,
-        328,
-        330,
-        332,
-        334,
-        336,
-        338,
-        340,
-        342,
-        367
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133,
+        135,
+        137,
+        139,
+        141,
+        143,
+        145,
+        147,
+        149,
+        151,
+        153,
+        155,
+        157,
+        159,
+        161,
+        163,
+        165,
+        167,
+        169,
+        171,
+        173,
+        175,
+        177,
+        179,
+        181,
+        183,
+        185,
+        187,
+        189,
+        191,
+        193,
+        195,
+        197,
+        199,
+        201,
+        203,
+        205,
+        207,
+        209,
+        211,
+        213,
+        215,
+        217,
+        219,
+        221,
+        223,
+        225,
+        227,
+        229,
+        231,
+        233,
+        235,
+        237,
+        239,
+        241,
+        243,
+        245,
+        247,
+        249,
+        251,
+        253,
+        255,
+        257,
+        259,
+        261,
+        263,
+        265,
+        267,
+        269,
+        271,
+        273,
+        275,
+        277,
+        279,
+        281,
+        283,
+        285,
+        287,
+        289,
+        291,
+        293,
+        295,
+        297,
+        299,
+        301,
+        303,
+        305,
+        307,
+        309,
+        311,
+        313,
+        315,
+        317,
+        319,
+        321,
+        323,
+        325,
+        327,
+        329,
+        331,
+        333,
+        335,
+        337,
+        339,
+        341,
+        343,
+        368
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 368
+      "DebugActionIndex": 369
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -10197,7 +10209,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 369
+      "DebugActionIndex": 370
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -10208,7 +10220,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 370
+      "DebugActionIndex": 371
     },
     {
       "Annotation": "CopyFiles /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -10219,7 +10231,7 @@
       "Outputs": [
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 371
+      "DebugActionIndex": 372
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_oerp.info",
@@ -10230,7 +10242,7 @@
         "Library/Bee/artifacts/csharpactions/unity_app_guid_oerp.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 372
+      "DebugActionIndex": 373
     },
     {
       "Annotation": "GuidGenerator /home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -10369,11 +10381,11 @@
         "/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid"
       ],
       "ToBuildDependencies": [
-        372
+        373
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 373
+      "DebugActionIndex": 374
     },
     {
       "Annotation": "Player",
@@ -10498,120 +10510,120 @@
         115,
         116,
         117,
-        120,
-        122,
-        124,
-        126,
-        128,
-        130,
-        132,
-        134,
-        136,
-        138,
-        140,
-        142,
-        144,
-        146,
-        148,
-        150,
-        152,
-        154,
-        156,
-        158,
-        160,
-        162,
-        164,
-        166,
-        168,
-        170,
-        172,
-        174,
-        176,
-        178,
-        180,
-        182,
-        184,
-        186,
-        188,
-        190,
-        192,
-        194,
-        196,
-        198,
-        200,
-        202,
-        204,
-        206,
-        208,
-        210,
-        212,
-        214,
-        216,
-        218,
-        220,
-        222,
-        224,
-        226,
-        228,
-        230,
-        232,
-        234,
-        236,
-        238,
-        240,
-        242,
-        244,
-        246,
-        248,
-        250,
-        252,
-        254,
-        256,
-        258,
-        260,
-        262,
-        264,
-        266,
-        268,
-        270,
-        272,
-        274,
-        276,
-        278,
-        280,
-        282,
-        284,
-        286,
-        288,
-        290,
-        292,
-        294,
-        296,
-        298,
-        300,
-        302,
-        304,
-        306,
-        308,
-        310,
-        312,
-        314,
-        316,
-        318,
-        320,
-        322,
-        324,
-        326,
-        328,
-        330,
-        332,
-        334,
-        336,
-        338,
-        340,
-        342,
+        118,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133,
+        135,
+        137,
+        139,
+        141,
+        143,
+        145,
+        147,
+        149,
+        151,
+        153,
+        155,
+        157,
+        159,
+        161,
+        163,
+        165,
+        167,
+        169,
+        171,
+        173,
+        175,
+        177,
+        179,
+        181,
+        183,
+        185,
+        187,
+        189,
+        191,
+        193,
+        195,
+        197,
+        199,
+        201,
+        203,
+        205,
+        207,
+        209,
+        211,
+        213,
+        215,
+        217,
+        219,
+        221,
+        223,
+        225,
+        227,
+        229,
+        231,
+        233,
+        235,
+        237,
+        239,
+        241,
+        243,
+        245,
+        247,
+        249,
+        251,
+        253,
+        255,
+        257,
+        259,
+        261,
+        263,
+        265,
+        267,
+        269,
+        271,
+        273,
+        275,
+        277,
+        279,
+        281,
+        283,
+        285,
+        287,
+        289,
+        291,
+        293,
+        295,
+        297,
+        299,
+        301,
+        303,
+        305,
+        307,
+        309,
+        311,
+        313,
+        315,
+        317,
+        319,
+        321,
+        323,
+        325,
+        327,
+        329,
+        331,
+        333,
+        335,
+        337,
+        339,
+        341,
         343,
-        345,
+        344,
         346,
         347,
         348,
@@ -10633,11 +10645,12 @@
         364,
         365,
         366,
-        368,
-        373
+        367,
+        369,
+        374
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 374
+      "DebugActionIndex": 375
     }
   ],
   "FileSignatures": [
@@ -10794,6 +10807,9 @@
       "File": "/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Release/Symbols/armeabi-v7a/libunity.sym.so"
     },
     {
+      "File": "Assets/Plugins/Android/libs/armeabi-v7a/libcri_ware_unity.so"
+    },
+    {
       "File": "Library/Bee/Playerd431182b-inputdata.json"
     },
     {
@@ -10948,7 +10964,7 @@
   "EmitDataForBeeWhy": 1,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 374
+          "Player": 375
         }
 ,  "DefaultNodes": [
     0

@@ -131,6 +131,7 @@ Library: lib_burst_generated
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.Mathematics.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.Postprocessing.Runtime.dll
+--root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.Burst.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Poly2Tri.dll
@@ -139,7 +140,6 @@ Library: lib_burst_generated
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.ProBuilder.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/LeanTouch.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/LeanCommon.dll
---root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Csg.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.ProBuilder.KdTree.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
