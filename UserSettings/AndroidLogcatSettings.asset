@@ -1,31 +1,13 @@
 {
     "m_SelectedDeviceId": "21f84460150c7ece",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "21f84460150c7ece",
+        "name": "com.Graphy.Trails",
+        "processId": 10967,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "21f84460150c7ece",
-            "name": "com.DefaultCompany.Trails",
-            "processId": 21929,
-            "exited": true
-        },
-        {
-            "deviceId": "21f84460150c7ece",
-            "name": "com.DefaultCompany.Trails",
-            "processId": 22048,
-            "exited": true
-        },
-        {
-            "deviceId": "21f84460150c7ece",
-            "name": "com.DefaultCompany.Trails",
-            "processId": 22847,
-            "exited": true
-        },
         {
             "deviceId": "21f84460150c7ece",
             "name": "com.DefaultCompany.Trails",
@@ -36,7 +18,7 @@
             "deviceId": "21f84460150c7ece",
             "name": "com.DefaultCompany.Trails",
             "processId": 2612,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "21f84460150c7ece",
@@ -54,6 +36,42 @@
             "deviceId": "21f84460150c7ece",
             "name": "org.telegram.messenger",
             "processId": 8732,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.Graphy.Trails",
+            "processId": 25541,
+            "exited": true
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.Graphy.Trails",
+            "processId": 28098,
+            "exited": true
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.Graphy.Trails",
+            "processId": 29555,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.Graphy.Trails",
+            "processId": 31669,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.Graphy.Trails",
+            "processId": 4060,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.Graphy.Trails",
+            "processId": 10967,
             "exited": false
         },
         {
@@ -119,7 +137,7 @@
         "MemoryGroup": 2,
         "Behavior": 0
     },
-    "m_Filter": "",
+    "m_Filter": "orien",
     "m_FilterIsRegularExpression": false,
     "m_SymbolPaths": []
 }
