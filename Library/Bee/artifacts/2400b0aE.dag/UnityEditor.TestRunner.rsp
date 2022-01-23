@@ -111,8 +111,13 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:PHOTON_UNITY_NETWORKING
+-define:PUN_2_0_OR_NEWER
+-define:PUN_2_OR_NEWER
+-define:PUN_2_19_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"/home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -324,7 +329,6 @@
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
--r:"/home/g/Unity/Trails/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.TestRunner.ref.dll"
 "Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/Api/CallbacksDelegator.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/Api/CallbacksDelegatorListener.cs"

@@ -101,6 +101,11 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_MONO
 --compilation-defines=NET_STANDARD_2_0
 --compilation-defines=NET_STANDARD
+--compilation-defines=DEVELOPMENT_BUILD
+--compilation-defines=ENABLE_PROFILER
+--compilation-defines=DEBUG
+--compilation-defines=TRACE
+--compilation-defines=UNITY_ASSERTIONS
 --compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
 --compilation-defines=ENABLE_DIRECTOR
 --compilation-defines=ENABLE_LOCALIZATION
@@ -110,6 +115,10 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_TIMELINE
 --compilation-defines=ENABLE_LEGACY_INPUT_MANAGER
 --compilation-defines=UNITY_POST_PROCESSING_STACK_V2
+--compilation-defines=PHOTON_UNITY_NETWORKING
+--compilation-defines=PUN_2_0_OR_NEWER
+--compilation-defines=PUN_2_OR_NEWER
+--compilation-defines=PUN_2_19_OR_NEWER
 --compilation-defines=PACKAGE_PHYSICS
 --compilation-defines=PACKAGE_PHYSICS2D
 --compilation-defines=PACKAGE_TILEMAP
@@ -125,6 +134,7 @@ Library: lib_burst_generated
 --compilation-defines=UNIVERSAL_1_0_0_OR_NEWER
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --compilation-defines=USING_PARTICLE_SYSTEM
+--debug=Full
 --output=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/tempburstlibs/armeabi-v7a/lib_burst_generated
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll
@@ -146,6 +156,11 @@ Library: lib_burst_generated
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Stl.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+--root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/PhotonUnityNetworking.Demos.dll
+--root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/PhotonUnityNetworking.Utilities.dll
+--root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/PhotonChat.dll
+--root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/PhotonUnityNetworking.dll
+--root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/PhotonRealtime.dll
 --assembly-folder=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e943843acfb78f5f2f3716a6553740d9

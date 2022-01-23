@@ -117,6 +117,10 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:PHOTON_UNITY_NETWORKING
+-define:PUN_2_0_OR_NEWER
+-define:PUN_2_OR_NEWER
+-define:PUN_2_19_OR_NEWER
 -define:ENABLE_XR_MODULE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -343,6 +347,8 @@
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
 -r:"/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
 -r:"Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll"
+-r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
+-r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Postprocessing.Editor.ref.dll"

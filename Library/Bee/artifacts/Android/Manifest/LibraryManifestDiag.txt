@@ -3,8 +3,13 @@ Using template '/home/g/Unity/Hub/Editor/2021.2.5f1/Editor/Data/PlaybackEngines/
 android.hardware.vulkan.version was added because:
 	One of the graphics devices was Vulkan
 android.permission.INTERNET was added because:
+	System.Net.Sockets was present in:
+		PhotonRealtime-FeaturesChecked.txt
+		Photon3Unity3D-FeaturesChecked.txt
+		websocket-sharp-FeaturesChecked.txt
 	UnityEngine.WWW was present in:
 		Assembly-CSharp-FeaturesChecked.txt
+	Development player
 android.permission.VIBRATE was added because:
 	UnityEngine.Handheld::Vibrate was present in:
 		Assembly-CSharp-FeaturesChecked.txt

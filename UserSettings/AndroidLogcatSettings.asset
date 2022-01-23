@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "21f84460150c7ece",
         "name": "com.DefaultCompany.Trails",
-        "processId": 17482,
+        "processId": 30050,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -288,6 +288,54 @@
             "deviceId": "21f84460150c7ece",
             "name": "com.DefaultCompany.Trails",
             "processId": 17482,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 19861,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 20440,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 21870,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 23518,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 26848,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 28225,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 28590,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.DefaultCompany.Trails",
+            "processId": 30050,
             "exited": false
         },
         {
