@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "21f84460150c7ece",
         "name": "com.Graphy.Trails",
-        "processId": 10967,
+        "processId": 13600,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -72,6 +72,12 @@
             "deviceId": "21f84460150c7ece",
             "name": "com.Graphy.Trails",
             "processId": 10967,
+            "exited": false
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.Graphy.Trails",
+            "processId": 13600,
             "exited": false
         },
         {

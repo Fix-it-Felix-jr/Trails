@@ -427,6 +427,7 @@
 "Assets/FirstGearGames/Utilities/Transforms.cs"
 "Assets/FirstGearGames/Utilities/Vectors.cs"
 "Assets/MoveGrid.cs"
+"Assets/NoSleepScreen.cs"
 "Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
 "Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"
 "Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs"

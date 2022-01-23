@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - CreateAndJoinRooms
     - FirstGearGames.SmoothCameraShaker.CameraShaker
     - FirstGearGames.SmoothCameraShaker.ShakeData
+    - NoSleepScreen
     - OutputVolume
     - ScreenOrientations
     - ShakeDetect
@@ -150,6 +151,8 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
@@ -295,6 +298,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9830}
     - Class: 114
       Script: {instanceID: 10080}
+    - Class: 114
+      Script: {instanceID: 171150}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -345,6 +350,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -3142,6 +3149,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScreenOrientations
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NoSleepScreen
   platform: 13
   scenePathNames:
   - Assets/Scenes/Loading.unity
