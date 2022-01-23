@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.DefaultCompany.Trails",
+  "applicationId": "com.Graphy.Trails",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-debug.ap_",
       "properties": {
-        "packageId": "com.DefaultCompany.Trails",
+        "packageId": "com.Graphy.Trails",
         "split": "",
         "minSdkVersion": "22"
       }

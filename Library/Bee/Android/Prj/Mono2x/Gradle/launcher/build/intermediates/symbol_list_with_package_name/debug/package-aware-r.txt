@@ -1,4 +1,4 @@
-com.DefaultCompany.Trails
+com.Graphy.Trails
 id unitySurfaceView
 mipmap app_icon
 mipmap app_icon_round

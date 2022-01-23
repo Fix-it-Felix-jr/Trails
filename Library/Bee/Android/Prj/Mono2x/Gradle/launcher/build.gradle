@@ -16,7 +16,7 @@ android {
     defaultConfig {
         minSdkVersion 22
         targetSdkVersion 30
-        applicationId 'com.DefaultCompany.Trails'
+        applicationId 'com.Graphy.Trails'
         ndk {
             abiFilters 'armeabi-v7a'
         }

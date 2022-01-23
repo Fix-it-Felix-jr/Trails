@@ -1,4 +1,4 @@
-#Sun Jan 23 00:09:22 CET 2022
+#Sun Jan 23 20:00:37 CET 2022
 base.0=/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

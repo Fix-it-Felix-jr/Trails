@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.DefaultCompany.Trails",
+  "applicationId": "com.Graphy.Trails",
   "variantName": "debug",
   "elements": [
     {
