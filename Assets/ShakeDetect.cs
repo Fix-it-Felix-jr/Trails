@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Photon.Pun;
+using Photon.Realtime;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class ShakeDetect : MonoBehaviour
 {
@@ -19,15 +22,21 @@ public class ShakeDetect : MonoBehaviour
     float penalty;
     float timeLeft;
     public Text txtPlayerSpeed;
+    Hashtable data = new Hashtable();
 
     void Start()
     {
+        
         lowPassFilterFactor = accelerometerUpdateInterval / lowPassKernelWidthInSeconds;
         shakeDetectionThreshold *= shakeDetectionThreshold;
         lowPassValue = Input.acceleration;
 
         timeLeft=0.5f;
         penalty=0f;
+
+        
+        
+        
     }
 
     void Update()
@@ -38,6 +47,24 @@ public class ShakeDetect : MonoBehaviour
 
         timeLeft -= Time.deltaTime;
 
+        data["pen"]=penalty;
+        PhotonNetwork.LocalPlayer.SetCustomProperties(data);
+
+        //Show custom properties of all players
+        int j=0;
+        foreach (var item in PhotonNetwork.PlayerList)
+        {
+            if (item.CustomProperties.ContainsKey("pen"))
+            {
+                Debug.Log("Player " +j + " penalty: " + item.CustomProperties["pen"]);
+            }
+            j++;
+        }
+
+
+
+
+        
 
         if (timeLeft<0.1 && deltaAcceleration.sqrMagnitude >= shakeDetectionThreshold)
         {
@@ -47,6 +74,12 @@ public class ShakeDetect : MonoBehaviour
             Debug.Log("Shake event detected at time "+Time.time);
             Vibrator.Vibrate(20);
             penalty+=Math.Abs(timeLeft);
+
+            
+            //Hashtable score = new Hashtable();  // using PUN's implementation of Hashtable
+            //score[PunPlayerScores.PlayerScoreProp] = Math.Round(penalty, 2);
+
+            //PhotonNetwork.player.SetScore(Math.Round(penalty, 2));
 
             timeLeft=0.5f;
         }

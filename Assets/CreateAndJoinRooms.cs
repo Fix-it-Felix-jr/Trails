@@ -5,8 +5,10 @@ using Photon.Pun;
 using System;
 using System.Threading.Tasks;
 using UnityEngine.UI;
+using ExitGames.Client.Photon;
+using Photon.Realtime;
 
-public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
+public class CreateAndJoinRooms : MonoBehaviourPunCallbacks,IConnectionCallbacks, IMatchmakingCallbacks
 {
     public GameObject button;
 
@@ -22,7 +24,7 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        CreateRoom();
+        JoinRoom();
         
     }
 
@@ -40,6 +42,14 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
         joined=true;
         
 
+    }
+    void IMatchmakingCallbacks.OnJoinRoomFailed(short returnCode, string message)
+    {
+        //if (returnCode == ErrorCode.NoRandomMatchFound)
+        //{
+            CreateRoom();
+            // no match found, try another filter or create a room
+        //}
     }
     void Update(){
         foreach (var playersName in PhotonNetwork.PlayerList)

@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AudioVibrate
     - AudioVisualizeManager
     - AudioVisualizeOutputGraph
     - AudioVolume
@@ -12,6 +11,7 @@ ScriptsOnlyBuild:
     - CreateAndJoinRooms
     - FirstGearGames.SmoothCameraShaker.CameraShaker
     - FirstGearGames.SmoothCameraShaker.ShakeData
+    - MoveGrid
     - NoSleepScreen
     - OutputVolume
     - ScreenOrientations
@@ -35,11 +35,13 @@ ScriptsOnlyBuild:
     - Photon.Pun.PhotonTransformView
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatConsoleWindow
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.PlasticSCM.Editor.dll:
     - Unity.PlasticSCM.Editor.PlasticWindow
+    Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.ProBuilderEditor
+    - UnityEditor.ProBuilder.ProbuilderMoveTool
+    - UnityEditor.ProBuilder.ProbuilderRotateTool
+    - UnityEditor.ProBuilder.ProbuilderScaleTool
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -88,7 +90,6 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.ShaderGraph.Editor.dll:
     - UnityEditor.ShaderGraph.Drawing.MaterialGraphEditWindow
-    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     - UnityEditor.ShaderGraph.SubGraphAsset
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
@@ -152,8 +153,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -205,27 +204,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 4270}
+      Script: {instanceID: 4268}
     - Class: 114
-      Script: {instanceID: 4348}
+      Script: {instanceID: 4346}
     - Class: 114
-      Script: {instanceID: 4406}
+      Script: {instanceID: 4404}
     - Class: 114
-      Script: {instanceID: 4716}
+      Script: {instanceID: 4714}
     - Class: 114
-      Script: {instanceID: 4720}
+      Script: {instanceID: 4718}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 4782}
     - Class: 114
-      Script: {instanceID: 4792}
+      Script: {instanceID: 4790}
     - Class: 114
-      Script: {instanceID: 4922}
+      Script: {instanceID: 4920}
     - Class: 114
-      Script: {instanceID: 4932}
+      Script: {instanceID: 4930}
     - Class: 114
-      Script: {instanceID: 4968}
+      Script: {instanceID: 4966}
     - Class: 114
-      Script: {instanceID: 5096}
+      Script: {instanceID: 5094}
     - Class: 114
       Script: {instanceID: 5310}
     - Class: 114
@@ -275,31 +274,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7886}
     - Class: 114
-      Script: {instanceID: 8048}
+      Script: {instanceID: 7964}
     - Class: 114
-      Script: {instanceID: 8208}
+      Script: {instanceID: 8050}
     - Class: 114
-      Script: {instanceID: 8478}
+      Script: {instanceID: 8210}
     - Class: 114
-      Script: {instanceID: 8644}
+      Script: {instanceID: 8480}
     - Class: 114
-      Script: {instanceID: 9028}
+      Script: {instanceID: 8646}
     - Class: 114
-      Script: {instanceID: 9110}
+      Script: {instanceID: 9030}
     - Class: 114
       Script: {instanceID: 9112}
     - Class: 114
-      Script: {instanceID: 9510}
+      Script: {instanceID: 9114}
     - Class: 114
-      Script: {instanceID: 9612}
+      Script: {instanceID: 9512}
     - Class: 114
-      Script: {instanceID: 9764}
+      Script: {instanceID: 9614}
     - Class: 114
-      Script: {instanceID: 9830}
+      Script: {instanceID: 9766}
     - Class: 114
-      Script: {instanceID: 10080}
+      Script: {instanceID: 9832}
     - Class: 114
-      Script: {instanceID: 171150}
+      Script: {instanceID: 10082}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -351,8 +350,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -372,9 +369,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3846}
     - Class: 114
-      Script: {instanceID: 4348}
+      Script: {instanceID: 3934}
     - Class: 114
-      Script: {instanceID: 5080}
+      Script: {instanceID: 4346}
+    - Class: 114
+      Script: {instanceID: 5078}
     - Class: 114
       Script: {instanceID: 6386}
     - Class: 114
@@ -382,7 +381,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7320}
     - Class: 114
-      Script: {instanceID: 9028}
+      Script: {instanceID: 9030}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -443,17 +442,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3228}
     - Class: 114
+      Script: {instanceID: 3718}
+    - Class: 114
+      Script: {instanceID: 3918}
+    - Class: 114
       Script: {instanceID: 3934}
     - Class: 114
-      Script: {instanceID: 4422}
+      Script: {instanceID: 4420}
+    - Class: 114
+      Script: {instanceID: 5114}
     - Class: 114
       Script: {instanceID: 5136}
     - Class: 114
       Script: {instanceID: 5280}
     - Class: 114
       Script: {instanceID: 5604}
-    - Class: 114
-      Script: {instanceID: 5630}
     - Class: 114
       Script: {instanceID: 5980}
     - Class: 114
@@ -473,14 +476,14 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7558}
     - Class: 114
-      Script: {instanceID: 9558}
+      Script: {instanceID: 9560}
     - Class: 114
-      Script: {instanceID: 9694}
-    - Class: 114
-      Script: {instanceID: 33100}
+      Script: {instanceID: 9696}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1555,6 +1558,12 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScreenOrientations
+  - hash:
+      serializedVersion: 2
       Hash: 3375c3d749f8f4cad889721b431bdc27
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1705,12 +1714,6 @@ ScriptsOnlyBuild:
     className: ObjectSpin
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AudioVibrate
-  - hash:
-      serializedVersion: 2
       Hash: 7d1a3e12579b7bd0f94909057ffba8d0
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering
@@ -1757,6 +1760,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Graph
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UpdatePenaltyScore
   - hash:
       serializedVersion: 2
       Hash: c2c717ec2424543aed5e93a4257995d7
@@ -2473,6 +2482,12 @@ ScriptsOnlyBuild:
     className: LeanFingerTap
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NoSleepScreen
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -3143,18 +3158,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit.Forms
     className: UserIdUiForm
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScreenOrientations
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NoSleepScreen
   platform: 13
   scenePathNames:
   - Assets/Scenes/Loading.unity

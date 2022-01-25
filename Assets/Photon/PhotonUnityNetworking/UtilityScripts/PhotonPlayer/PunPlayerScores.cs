@@ -58,5 +58,16 @@ namespace Photon.Pun.UtilityScripts
 
             return 0;
         }
+        /*
+        public static List<object> GetAllScores(this Player player)
+        {
+            List<object> scores = new List<object>();
+            var sortedPlayerList = (from p in playerList orderby p.GetMyScore() descending select p).ToList();
+            for(int i = 0; i < PhotonNetwork.playerList.Length; i++)
+                scores.Add(sortedPlayerList[i].CustomProperties.TryGetValue(PunPlayerScores.PlayerScoreProp, out score));
+            }
+            return scores;
+        }
+        */
     }
 }
