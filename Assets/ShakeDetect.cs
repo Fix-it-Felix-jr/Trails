@@ -23,6 +23,7 @@ public class ShakeDetect : MonoBehaviour
     float timeLeft;
     public Text txtPlayerSpeed;
     Hashtable data = new Hashtable();
+    float[] penaltyValues = new float[2];
 
     void Start()
     {
@@ -57,6 +58,7 @@ public class ShakeDetect : MonoBehaviour
             if (item.CustomProperties.ContainsKey("pen"))
             {
                 Debug.Log("Player " +j + " penalty: " + item.CustomProperties["pen"]);
+                penaltyValues[j]=(float)item.CustomProperties["pen"];
             }
             j++;
         }
@@ -90,5 +92,20 @@ public class ShakeDetect : MonoBehaviour
     }
     public float Penalty(){
         return penalty;
+    }
+
+    public void Winner(){
+        if (penaltyValues[0]<penaltyValues[1]){
+            Debug.Log("Player 0 WON!");
+            //Do something to show that
+        }
+        if (penaltyValues[0]>penaltyValues[1]){
+            Debug.Log("Player 1 WON!");
+            //Do something to show that
+        }
+        else{
+            Debug.Log("Same score!");
+            //Do something to show that
+        }
     }
 }
