@@ -17,24 +17,6 @@
         {
             "deviceId": "21f84460150c7ece",
             "name": "com.Graphy.Trails",
-            "processId": 14667,
-            "exited": true
-        },
-        {
-            "deviceId": "21f84460150c7ece",
-            "name": "com.Graphy.Trails",
-            "processId": 20340,
-            "exited": true
-        },
-        {
-            "deviceId": "21f84460150c7ece",
-            "name": "com.Graphy.Trails",
-            "processId": 25642,
-            "exited": true
-        },
-        {
-            "deviceId": "21f84460150c7ece",
-            "name": "com.Graphy.Trails",
             "processId": 28221,
             "exited": true
         },
@@ -48,6 +30,24 @@
             "deviceId": "21f84460150c7ece",
             "name": "com.Graphy.Trails",
             "processId": 31830,
+            "exited": true
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.Graphy.Trails",
+            "processId": 926,
+            "exited": true
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.Graphy.Trails",
+            "processId": 2178,
+            "exited": true
+        },
+        {
+            "deviceId": "21f84460150c7ece",
+            "name": "com.Graphy.Trails",
+            "processId": 3520,
             "exited": true
         },
         {

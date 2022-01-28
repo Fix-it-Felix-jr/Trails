@@ -7,6 +7,8 @@ using Photon.Pun;
 using Photon.Realtime;
 using System.Threading.Tasks;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
+using UnityEngine.SceneManagement;
+using ExitGames.Client.Photon;
 namespace TMPro.Examples{
 
 public class ShakeDetect : MonoBehaviour
@@ -137,26 +139,37 @@ public class ShakeDetect : MonoBehaviour
         return penalty;
     }
 
-    public void Winner(){
+    async public void Winner(){
         if (penaltyValues[0]<penaltyValues[1]){
             Debug.Log("Player 0 WON!");
             if (PhotonNetwork.PlayerList[0]==PhotonNetwork.LocalPlayer){
                 Debug.Log("YOU WON!");
+                countdown.text="YOU WON!";
+            }
+            else{
+                countdown.text="Next time";
             }
             //Do something to show that
         }
         if (penaltyValues[0]>penaltyValues[1]){
             Debug.Log("Player 1 WON!");
-            if (PhotonNetwork.PlayerList[0]==PhotonNetwork.LocalPlayer){
+            if (PhotonNetwork.PlayerList[1]==PhotonNetwork.LocalPlayer){
                 Debug.Log("YOU WON!");
+                countdown.text="YOU WON!";
+            }
+            else{
+                countdown.text="Next time";
             }
             //Do something to show that
         }
         if(penaltyValues[0]==penaltyValues[1]){
             Debug.Log("Both are winners! Same score!");
+            countdown.text="TIE";
             //Do something to show that
         }
-        
+        await Task.Delay(5000);
+        PhotonNetwork.Disconnect();
+        SceneManager.LoadScene("PlayAgain");
     }
 }
 }
