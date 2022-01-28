@@ -1,0 +1,9 @@
+Base path: '/home/g/Unity/Hub/Editor/2021.2.8f1/Editor/Data', plugins path '/home/g/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=2048 file=/home/g/Documenti/GitHub/Trails/Assets/EffectGraphs/Speed Lines.vfx kernel=CSMain cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=202128> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER SHADER_API_MOBILE UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=vulkan flags=268439552 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=6526
+
+Cmd: shutdown
+
+Quitting shader compiler process

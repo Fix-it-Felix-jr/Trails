@@ -629,7 +629,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614589}
   - {fileID: 8926484042661614591}
   - {fileID: 8926484042661614593}
-  m_UIPosition: {x: 940, y: 812}
+  m_UIPosition: {x: 941, y: 812}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -657,7 +657,7 @@ MonoBehaviour:
   uvMode: 0
   useSoftParticle: 0
   vfxSystemSortPriority: 0
-  sort: 1
+  sort: 0
   indirectDraw: 0
   computeCulling: 0
   frustumCulling: 0

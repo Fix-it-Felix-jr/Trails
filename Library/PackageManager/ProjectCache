@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637788434150000000
-    m_Hash: 1084693292
+      ticks: 637788994330000000
+    m_Hash: 2789600666
   m_LockFileStatus:
     m_FilePath: /home/g/Documenti/GitHub/Trails/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637788434150000000
-    m_Hash: 2237522266
+      ticks: 637788994330000000
+    m_Hash: 2398272183
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: /home/g/Documenti/GitHub/Trails/Packages
-m_EditorVersion: 2021.2.5f1 (4ec9a5e799f5)
+m_EditorVersion: 2021.2.8f1 (d0e5f0a7b06a)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@1.15.4
+- packageId: com.unity.collab-proxy@1.15.7
   testable: 0
   isDirectDependency: 1
-  version: 1.15.4
+  version: 1.15.7
   source: 1
-  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.collab-proxy@1.15.4
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.collab-proxy@1.15.7
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -91,7 +91,6 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.15.4
     - 1.15.7
     - 1.15.9
     - 2.0.0-preview.6
@@ -140,23 +139,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637726568460000000
+  datePublishedTicks: 637744672890000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 1275603954ad33bee601fe2c9a3c787b3d4e4c6b
+    revision: d208594e5483cdf10d303b6ee17df4d6bf58d3de
     path: 
   unityLifecycle:
-    version: 1.15.4
+    version: 1.15.7
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.7
+- packageId: com.unity.ide.rider@3.0.9
   testable: 0
   isDirectDependency: 1
-  version: 3.0.7
+  version: 3.0.9
   source: 1
-  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.ide.rider@3.0.7
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.ide.rider@3.0.9
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -201,7 +200,6 @@ m_ResolvedPackages:
     - 3.0.9
     - 3.0.10
     compatible:
-    - 3.0.7
     - 3.0.9
     - 3.0.10
     verified: 3.0.10
@@ -221,16 +219,16 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637572251600000000
+  datePublishedTicks: 637762012950000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 3007c42a679bbe2c082c276e8d79279110964553
+    revision: bbc029723f4d157f759dba0f2d438dfcec2e73eb
     path: 
   unityLifecycle:
-    version: 3.0.7
+    version: 3.0.9
     nextVersion: 
 - packageId: com.unity.ide.visualstudio@2.0.12
   testable: 0
@@ -434,93 +432,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.3
     nextVersion: 
-- packageId: com.unity.postprocessing@3.2.0
-  testable: 0
-  isDirectDependency: 1
-  version: 3.2.0
-  source: 1
-  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.postprocessing@3.2.0
-  assetPath: Packages/com.unity.postprocessing
-  name: com.unity.postprocessing
-  displayName: Post Processing
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: The post-processing stack (v2) comes with a collection of effects
-    and image filters you can apply to your cameras to improve the visuals of your
-    games.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.1.7
-    - 0.1.8
-    - 2.0.0-beta
-    - 2.0.1-beta
-    - 2.0.2-preview
-    - 2.0.3-preview
-    - 2.0.5-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 2.0.9-preview
-    - 2.0.10-preview
-    - 2.0.11-preview
-    - 2.0.12-preview
-    - 2.0.13-preview
-    - 2.0.14-preview
-    - 2.0.15-preview
-    - 2.0.16-preview
-    - 2.0.17-preview
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.1.7
-    - 2.2.1
-    - 2.2.2
-    - 2.3.0
-    - 3.0.1
-    - 3.0.3
-    - 3.1.0
-    - 3.1.1
-    - 3.2.0
-    compatible:
-    - 3.1.1
-    - 3.2.0
-    verified: 3.1.1
-  dependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637726687760000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Graphics.git
-    revision: b0e3273299e678bccb11e08d28c49d481c731c7e
-    path: 
-  unityLifecycle:
-    version: 3.1.1
-    nextVersion: 
 - packageId: com.unity.probuilder@5.0.3
   testable: 0
   isDirectDependency: 1
@@ -647,12 +558,219 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 5.0.3
     nextVersion: 
-- packageId: com.unity.render-pipelines.universal@12.1.2
+- packageId: com.unity.render-pipelines.high-definition@12.1.3
   testable: 0
   isDirectDependency: 1
-  version: 12.1.2
+  version: 12.1.3
   source: 2
-  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.render-pipelines.universal@12.1.2
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.render-pipelines.high-definition@12.1.3
+  assetPath: Packages/com.unity.render-pipelines.high-definition
+  name: com.unity.render-pipelines.high-definition
+  displayName: High Definition RP
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The High Definition Render Pipeline (HDRP) is a high-fidelity Scriptable
+    Render Pipeline built by Unity to target modern (Compute Shader compatible) platforms.
+    HDRP utilizes Physically-Based Lighting techniques, linear lighting, HDR lighting,
+    and a configurable hybrid Tile/Cluster deferred/Forward lighting architecture
+    and gives you the tools you need to create games, technical demos, animations,
+    and more to a high graphical standard.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.21
+    - 0.1.27
+    - 0.1.28
+    - 1.0.0-beta
+    - 1.0.1-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.8-preview
+    - 1.1.10-preview
+    - 1.1.11-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0-preview
+    - 5.2.0-preview
+    - 5.2.1-preview
+    - 5.2.2-preview
+    - 5.2.3-preview
+    - 5.3.1-preview
+    - 5.6.1-preview
+    - 5.7.2-preview
+    - 5.8.2-preview
+    - 5.9.0-preview
+    - 5.10.0-preview
+    - 5.13.0-preview
+    - 5.16.1-preview
+    - 6.5.2-preview
+    - 6.5.3-preview
+    - 6.7.1-preview
+    - 6.9.0-preview
+    - 6.9.1-preview
+    - 6.9.2-preview
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.13
+    - 9.0.0-preview.33
+    - 9.0.0-preview.54
+    - 9.0.0-preview.71
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 12.1.3
+    compatible:
+    - 12.1.3
+    verified: 12.1.3
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.4
+  - name: com.unity.burst
+    version: 1.6.0
+  - name: com.unity.modules.video
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.render-pipelines.core
+    version: 12.1.3
+  - name: com.unity.shadergraph
+    version: 12.1.3
+  - name: com.unity.visualeffectgraph
+    version: 12.1.3
+  - name: com.unity.render-pipelines.high-definition-config
+    version: 12.1.3
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.2.5
+  - name: com.unity.burst
+    version: 1.6.0
+  - name: com.unity.modules.video
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.render-pipelines.core
+    version: 12.1.3
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.shadergraph
+    version: 12.1.3
+  - name: com.unity.searcher
+    version: 4.9.1
+  - name: com.unity.visualeffectgraph
+    version: 12.1.3
+  - name: com.unity.render-pipelines.high-definition-config
+    version: 12.1.3
+  keywords:
+  - graphics
+  - performance
+  - rendering
+  - render
+  - pipeline
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 12.1.3
+    nextVersion: 
+- packageId: com.unity.render-pipelines.universal@12.1.3
+  testable: 0
+  isDirectDependency: 1
+  version: 12.1.3
+  source: 2
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.render-pipelines.universal@12.1.3
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -712,26 +830,26 @@ m_ResolvedPackages:
     - 10.7.0
     - 10.8.0
     - 10.8.1
-    - 12.1.2
+    - 12.1.3
     compatible:
-    - 12.1.2
-    verified: 12.1.2
+    - 12.1.3
+    verified: 12.1.3
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.burst
     version: 1.5.0
   - name: com.unity.render-pipelines.core
-    version: 12.1.2
+    version: 12.1.3
   - name: com.unity.shadergraph
-    version: 12.1.2
+    version: 12.1.3
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.5
   - name: com.unity.burst
     version: 1.6.0
   - name: com.unity.render-pipelines.core
-    version: 12.1.2
+    version: 12.1.3
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -743,7 +861,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.2
+    version: 12.1.3
   - name: com.unity.searcher
     version: 4.9.1
   keywords:
@@ -771,7 +889,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.2
+    version: 12.1.3
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.29
   testable: 0
@@ -1032,12 +1150,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.6.2
+- packageId: com.unity.timeline@1.6.3
   testable: 0
   isDirectDependency: 1
-  version: 1.6.2
+  version: 1.6.3
   source: 1
-  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.timeline@1.6.2
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.timeline@1.6.3
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1122,7 +1240,6 @@ m_ResolvedPackages:
     - 1.6.3
     - 1.7.0-pre.1
     compatible:
-    - 1.6.2
     - 1.6.3
     - 1.7.0-pre.1
     verified: 1.6.3
@@ -1159,23 +1276,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637643657750000000
+  datePublishedTicks: 637703491050000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: d0d66dff04e2ee077546a894ea0af2b750055b32
+    revision: 527d3ba73eae5d77407d8300c31dd62770a7409f
     path: 
   unityLifecycle:
-    version: 1.6.2
+    version: 1.6.3
     nextVersion: 
-- packageId: com.unity.toolchain.linux-x86_64@0.1.19-preview
+- packageId: com.unity.toolchain.linux-x86_64@1.0.0
   testable: 0
   isDirectDependency: 1
-  version: 0.1.19-preview
+  version: 1.0.0
   source: 1
-  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.toolchain.linux-x86_64@0.1.19-preview
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.toolchain.linux-x86_64@1.0.0
   assetPath: Packages/com.unity.toolchain.linux-x86_64
   name: com.unity.toolchain.linux-x86_64
   displayName: Toolchain Linux x64
@@ -1224,14 +1341,14 @@ m_ResolvedPackages:
     verified: 
   dependencies:
   - name: com.unity.sysroot
-    version: 0.1.19-preview
+    version: 1.0.0
   - name: com.unity.sysroot.linux-x86_64
-    version: 0.1.14-preview
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.sysroot
-    version: 0.1.19-preview
+    version: 1.0.0
   - name: com.unity.sysroot.linux-x86_64
-    version: 0.1.14-preview
+    version: 1.0.0
   keywords:
   - toolchain
   - linux
@@ -1244,13 +1361,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637619740280000000
+  datePublishedTicks: 637771471780000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.sysroot.git
-    revision: c23b9fb202dceb7b518aa7353d96a3e2eae227c5
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 0b6b1770930fd9a6c9365613ff2cba3eb81810dd
     path: 
   unityLifecycle:
     version: 
@@ -1317,12 +1434,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.visualeffectgraph@12.1.2
+- packageId: com.unity.visualeffectgraph@12.1.3
   testable: 0
   isDirectDependency: 1
-  version: 12.1.2
+  version: 12.1.3
   source: 2
-  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.visualeffectgraph@12.1.2
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.visualeffectgraph@12.1.3
   assetPath: Packages/com.unity.visualeffectgraph
   name: com.unity.visualeffectgraph
   displayName: Visual Effect Graph
@@ -1404,20 +1521,20 @@ m_ResolvedPackages:
     - 10.7.0
     - 10.8.0
     - 10.8.1
-    - 12.1.2
+    - 12.1.3
     compatible:
-    - 12.1.2
-    verified: 12.1.2
+    - 12.1.3
+    verified: 12.1.3
   dependencies:
   - name: com.unity.shadergraph
-    version: 12.1.2
+    version: 12.1.3
   - name: com.unity.render-pipelines.core
-    version: 12.1.2
+    version: 12.1.3
   resolvedDependencies:
   - name: com.unity.shadergraph
-    version: 12.1.2
+    version: 12.1.3
   - name: com.unity.render-pipelines.core
-    version: 12.1.2
+    version: 12.1.3
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -1454,7 +1571,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.2
+    version: 12.1.3
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
@@ -3196,12 +3313,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.shadergraph@12.1.2
+- packageId: com.unity.shadergraph@12.1.3
   testable: 0
   isDirectDependency: 0
-  version: 12.1.2
+  version: 12.1.3
   source: 2
-  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.shadergraph@12.1.2
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.shadergraph@12.1.3
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -3314,18 +3431,18 @@ m_ResolvedPackages:
     - 10.7.0
     - 10.8.0
     - 10.8.1
-    - 12.1.2
+    - 12.1.3
     compatible:
-    - 12.1.2
-    verified: 12.1.2
+    - 12.1.3
+    verified: 12.1.3
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.2
+    version: 12.1.3
   - name: com.unity.searcher
     version: 4.9.1
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.2
+    version: 12.1.3
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3357,14 +3474,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.2
+    version: 12.1.3
     nextVersion: 
-- packageId: com.unity.render-pipelines.core@12.1.2
+- packageId: com.unity.render-pipelines.core@12.1.3
   testable: 0
   isDirectDependency: 0
-  version: 12.1.2
+  version: 12.1.3
   source: 2
-  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.render-pipelines.core@12.1.2
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.render-pipelines.core@12.1.3
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3480,10 +3597,10 @@ m_ResolvedPackages:
     - 10.7.0
     - 10.8.0
     - 10.8.1
-    - 12.1.2
+    - 12.1.3
     compatible:
-    - 12.1.2
-    verified: 12.1.2
+    - 12.1.3
+    verified: 12.1.3
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -3521,14 +3638,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.2
+    version: 12.1.3
     nextVersion: 
-- packageId: com.unity.sysroot@0.1.19-preview
+- packageId: com.unity.sysroot@1.0.0
   testable: 0
   isDirectDependency: 0
-  version: 0.1.19-preview
+  version: 1.0.0
   source: 1
-  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.sysroot@0.1.19-preview
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.sysroot@1.0.0
   assetPath: Packages/com.unity.sysroot
   name: com.unity.sysroot
   displayName: Sysroot Base
@@ -3587,23 +3704,23 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637497460110000000
+  datePublishedTicks: 637771471340000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.sysroot.git
-    revision: 8717ab9c5b4f758bc542184e1872ed3fcce1e1f9
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 0b6b1770930fd9a6c9365613ff2cba3eb81810dd
     path: 
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.sysroot.linux-x86_64@0.1.14-preview
+- packageId: com.unity.sysroot.linux-x86_64@1.0.0
   testable: 0
   isDirectDependency: 0
-  version: 0.1.14-preview
+  version: 1.0.0
   source: 1
-  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.sysroot.linux-x86_64@0.1.14-preview
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.sysroot.linux-x86_64@1.0.0
   assetPath: Packages/com.unity.sysroot.linux-x86_64
   name: com.unity.sysroot.linux-x86_64
   displayName: Sysroot Linux x64
@@ -3644,10 +3761,10 @@ m_ResolvedPackages:
     verified: 
   dependencies:
   - name: com.unity.sysroot
-    version: 0.1.18-preview
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.sysroot
-    version: 0.1.19-preview
+    version: 1.0.0
   keywords:
   - unity
   - linux
@@ -3661,13 +3778,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637460700410000000
+  datePublishedTicks: 637771471630000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.sysroot.git
-    revision: 0d5e7b07c95f3ae15d6d80931a071b042e97189b
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 0b6b1770930fd9a6c9365613ff2cba3eb81810dd
     path: 
   unityLifecycle:
     version: 
@@ -3956,6 +4073,109 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.6.0
+    nextVersion: 
+- packageId: com.unity.render-pipelines.high-definition-config@12.1.3
+  testable: 0
+  isDirectDependency: 0
+  version: 12.1.3
+  source: 2
+  resolvedPath: /home/g/Documenti/GitHub/Trails/Library/PackageCache/com.unity.render-pipelines.high-definition-config@12.1.3
+  assetPath: Packages/com.unity.render-pipelines.high-definition-config
+  name: com.unity.render-pipelines.high-definition-config
+  displayName: High Definition RP Config
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Configuration files for the High Definition Render Pipeline.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.15
+    - 9.0.0-preview.35
+    - 9.0.0-preview.57
+    - 9.0.0-preview.74
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 12.1.3
+    compatible:
+    - 12.1.3
+    verified: 12.1.3
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 12.1.3
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 12.1.3
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 12.1.3
     nextVersion: 
 - packageId: com.unity.settings-manager@1.0.3
   testable: 0
