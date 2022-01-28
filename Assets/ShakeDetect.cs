@@ -25,7 +25,7 @@ public class ShakeDetect : MonoBehaviour
     Vector3 lowPassValue;
     float penalty;
     float timeLeft;
-    public Text txtPlayerSpeed;
+    public TMP_Text txtPlayerSpeed;
     Hashtable data = new Hashtable();
     float[] penaltyValues = new float[2];
     bool end=false;
@@ -33,6 +33,7 @@ public class ShakeDetect : MonoBehaviour
     bool first=true;
     public TMP_Text countdown;
     public int timeBeforeStarts=7000;
+    bool disconnect=false;
 
     public AudioSource audioSource;
 
@@ -75,7 +76,7 @@ public class ShakeDetect : MonoBehaviour
         countdown.text="";
     }
 
-    void Update()
+    async void Update()
     {
         Vector3 acceleration = Input.acceleration;
         lowPassValue = Vector3.Lerp(lowPassValue, acceleration, lowPassFilterFactor);
@@ -102,6 +103,16 @@ public class ShakeDetect : MonoBehaviour
         if (started && first) {
             timeLeft=0.5f;
             first=false;
+        }
+
+        if (!disconnect && PhotonNetwork.PlayerList.Length<2){
+            disconnect=true;
+            countdown.text="Disconnection";
+            await Task.Delay(5000);
+            countdown.text="No contest";
+            await Task.Delay(5000);
+            PhotonNetwork.Disconnect();
+            SceneManager.LoadScene("PlayAgain");
         }
 
         
@@ -138,34 +149,42 @@ public class ShakeDetect : MonoBehaviour
     public float Penalty(){
         return penalty;
     }
+    
 
     async public void Winner(){
-        if (penaltyValues[0]<penaltyValues[1]){
-            Debug.Log("Player 0 WON!");
-            if (PhotonNetwork.PlayerList[0]==PhotonNetwork.LocalPlayer){
-                Debug.Log("YOU WON!");
-                countdown.text="YOU WON!";
+        if (!disconnect && PhotonNetwork.PlayerList.Length>1){
+            if (penaltyValues[0]<penaltyValues[1]){
+                Debug.Log("Player 0 WON!");
+                if (PhotonNetwork.PlayerList[0]==PhotonNetwork.LocalPlayer){
+                    Debug.Log("YOU WON!");
+                    countdown.text="YOU WON!";
+                }
+                else{
+                    countdown.text="Next time";
+                }
+                //Do something to show that
             }
-            else{
-                countdown.text="Next time";
+            if (penaltyValues[0]>penaltyValues[1]){
+                Debug.Log("Player 1 WON!");
+                if (PhotonNetwork.PlayerList[1]==PhotonNetwork.LocalPlayer){
+                    Debug.Log("YOU WON!");
+                    countdown.text="YOU WON!";
+                }
+                else{
+                    countdown.text="Next time";
+                }
+                //Do something to show that
             }
-            //Do something to show that
+            if(penaltyValues[0]==penaltyValues[1]){
+                Debug.Log("Both are winners! Same score!");
+                countdown.text="TIE";
+                //Do something to show that
+            }
         }
-        if (penaltyValues[0]>penaltyValues[1]){
-            Debug.Log("Player 1 WON!");
-            if (PhotonNetwork.PlayerList[1]==PhotonNetwork.LocalPlayer){
-                Debug.Log("YOU WON!");
-                countdown.text="YOU WON!";
-            }
-            else{
-                countdown.text="Next time";
-            }
-            //Do something to show that
-        }
-        if(penaltyValues[0]==penaltyValues[1]){
-            Debug.Log("Both are winners! Same score!");
-            countdown.text="TIE";
-            //Do something to show that
+        else{
+            countdown.text="Disconnection";
+            await Task.Delay(5000);
+            countdown.text="No contest";
         }
         await Task.Delay(5000);
         PhotonNetwork.Disconnect();

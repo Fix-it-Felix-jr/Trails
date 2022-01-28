@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine.UI;
 using ExitGames.Client.Photon;
 using Photon.Realtime;
+using UnityEngine.SceneManagement;
 
 public class CreateAndJoinRooms : MonoBehaviourPunCallbacks,IConnectionCallbacks, IMatchmakingCallbacks
 {
@@ -20,6 +21,7 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks,IConnectionCallbacks
     //joinInput.text="Default";
 
     bool joined=false;
+    bool starting=false;
 
     // Start is called before the first frame update
     void Start()
@@ -41,7 +43,13 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks,IConnectionCallbacks
 
         joined=true;
         
+    }
+    public override void OnLeftRoom(){
 
+        joined=false;
+        PhotonNetwork.Disconnect();
+        SceneManager.LoadScene("Loading");
+        
     }
     void IMatchmakingCallbacks.OnJoinRoomFailed(short returnCode, string message)
     {
@@ -58,9 +66,10 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks,IConnectionCallbacks
             Debug.Log(playersName + " is in the room");
             button.gameObject.SetActive(false);
         }
-        if (joined && PhotonNetwork.PlayerList.Length > 1){
+        if (joined && !starting && PhotonNetwork.PlayerList.Length > 1){
             PhotonNetwork.LoadLevel("Tunnel");
-            joined=false;
+            starting=true;
+
         }
     }
 }

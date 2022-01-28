@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tunnel.unity
     guid: 39777688c46e18b979e5a06a7c91e6ff
+  - enabled: 1
+    path: Assets/Scenes/PlayAgain.unity
+    guid: 533b3d574c9cebae9a6fa5301a6ef6e4
   m_configObjects: {}
