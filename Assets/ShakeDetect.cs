@@ -5,7 +5,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
+using System.Threading.Tasks;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
+namespace TMPro.Examples{
 
 public class ShakeDetect : MonoBehaviour
 {
@@ -24,10 +26,17 @@ public class ShakeDetect : MonoBehaviour
     public Text txtPlayerSpeed;
     Hashtable data = new Hashtable();
     float[] penaltyValues = new float[2];
+    bool end=false;
+    bool started=false;
+    bool first=true;
+    public TMP_Text countdown;
+    public int timeBeforeStarts=7000;
 
-    void Start()
+    public AudioSource audioSource;
+
+    async void Start()
     {
-        
+        //audioSource = GetComponent<AudioSource>();
         lowPassFilterFactor = accelerometerUpdateInterval / lowPassKernelWidthInSeconds;
         shakeDetectionThreshold *= shakeDetectionThreshold;
         lowPassValue = Input.acceleration;
@@ -35,9 +44,33 @@ public class ShakeDetect : MonoBehaviour
         timeLeft=0.5f;
         penalty=0f;
 
+        await Task.Delay(timeBeforeStarts);
         
+        //3
+        Vibrator.Vibrate(20);
+        countdown.text="3";
+
+        await Task.Delay(500);
+
+        //2
+        Vibrator.Vibrate(20);
+        countdown.text="2";
+
+        await Task.Delay(500);
+
+        //1
+        Vibrator.Vibrate(20);
+        countdown.text="1";
+
+        await Task.Delay(500);
+
+        //GO
+        Vibrator.Vibrate(20);
+        countdown.text="GO!";
+        started=true;
         
-        
+        await Task.Delay(500);
+        countdown.text="";
     }
 
     void Update()
@@ -55,7 +88,7 @@ public class ShakeDetect : MonoBehaviour
         int j=0;
         foreach (var item in PhotonNetwork.PlayerList)
         {
-            if (item.CustomProperties.ContainsKey("pen"))
+            if (!end && item.CustomProperties.ContainsKey("pen"))
             {
                 Debug.Log("Player " +j + " penalty: " + item.CustomProperties["pen"]);
                 penaltyValues[j]=(float)item.CustomProperties["pen"];
@@ -63,12 +96,15 @@ public class ShakeDetect : MonoBehaviour
             j++;
         }
 
-
-
+        
+        if (started && first) {
+            timeLeft=0.5f;
+            first=false;
+        }
 
         
 
-        if (timeLeft<0.1 && deltaAcceleration.sqrMagnitude >= shakeDetectionThreshold)
+        if (started && !end && timeLeft<0.1 && deltaAcceleration.sqrMagnitude >= shakeDetectionThreshold)
         {
             // Perform your "shaking actions" here. If necessary, add suitable
             // guards in the if check above to avoid redundant handling during
@@ -85,10 +121,17 @@ public class ShakeDetect : MonoBehaviour
 
             timeLeft=0.5f;
         }
-        if (timeLeft<-10){
+        if (!end && timeLeft<-10){
             penalty+=Math.Abs(timeLeft);
         }
         txtPlayerSpeed.text = "Penalty: " + Math.Round(penalty, 2).ToString();
+
+        if (!end && !audioSource.isPlaying)
+        {
+            //Finished
+            end=true;
+            Winner();
+        }
     }
     public float Penalty(){
         return penalty;
@@ -97,15 +140,23 @@ public class ShakeDetect : MonoBehaviour
     public void Winner(){
         if (penaltyValues[0]<penaltyValues[1]){
             Debug.Log("Player 0 WON!");
+            if (PhotonNetwork.PlayerList[0]==PhotonNetwork.LocalPlayer){
+                Debug.Log("YOU WON!");
+            }
             //Do something to show that
         }
         if (penaltyValues[0]>penaltyValues[1]){
             Debug.Log("Player 1 WON!");
+            if (PhotonNetwork.PlayerList[0]==PhotonNetwork.LocalPlayer){
+                Debug.Log("YOU WON!");
+            }
             //Do something to show that
         }
-        else{
-            Debug.Log("Same score!");
+        if(penaltyValues[0]==penaltyValues[1]){
+            Debug.Log("Both are winners! Same score!");
             //Do something to show that
         }
+        
     }
+}
 }

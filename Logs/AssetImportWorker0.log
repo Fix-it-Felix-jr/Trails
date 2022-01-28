@@ -10,7 +10,7 @@ Available memory:        32084 MB
 Using pre-set license
 Pro License: NO
 
-(Unity:296341): Gdk-CRITICAL **: 18:02:54.322: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+(Unity:606923): Gdk-CRITICAL **: 10:33:33.223: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
 Desktop is 6000 x 1440 @ 60 Hz
 Initialize udev device monitor.
 
@@ -26,7 +26,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-40183
+41289
 Successfully changed project path to: /home/g/Documenti/GitHub/Trails
 /home/g/Documenti/GitHub/Trails
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -58,7 +58,7 @@ Successfully changed project path to: /home/g/Documenti/GitHub/Trails
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 189,68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 252,36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
 [Subsystems] Discovering subsystems at path /home/g/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
@@ -79,93 +79,93 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
 _footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap
  GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1175683560
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 2009254888
 Initialize mono
 Mono path[0] = '/home/g/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Managed'
 Mono path[1] = '/home/g/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/g/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56341
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56923
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/g/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,013794 seconds.
+Registered in 0,019001 seconds.
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 239,69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 237,65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,282 seconds
+- Completed reload, in  1,762 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1283ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (1765ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1022ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1436ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (629ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (853ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (240ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (272ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
+				RefreshPlugins (238ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (425ms)
+				ProcessInitializeOnLoadMethodAttributes (145ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,008542 seconds.
+Registered in 0,016133 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 228,30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 222,00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 UpdateMenuTitleForLanguage: 10
 Mono: successfully reloaded assembly
-- Completed reload, in  4,317 seconds
+- Completed reload, in  4,567 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4318ms)
-		BeginReloadAssembly (218ms)
+	ReloadAssembly (4568ms)
+		BeginReloadAssembly (292ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (21ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (3892ms)
-			LoadAssemblies (161ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (3974ms)
+			LoadAssemblies (172ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (593ms)
+			SetupTypeCache (782ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (228ms)
-			SetupLoadedEditorAssemblies (2789ms)
+			RebuildScriptCaches (339ms)
+			SetupLoadedEditorAssemblies (2545ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (228ms)
-				BeforeProcessingInitializeOnLoad (199ms)
-				ProcessInitializeOnLoadAttributes (2140ms)
-				ProcessInitializeOnLoadMethodAttributes (190ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (222ms)
+				BeforeProcessingInitializeOnLoad (284ms)
+				ProcessInitializeOnLoadAttributes (1800ms)
+				ProcessInitializeOnLoadMethodAttributes (203ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2,05 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1,70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 5675 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 373 unused Assets / (22,5 MB). Loaded Objects now: 5936.
-Memory consumption went from 300,0 MB to 277,4 MB.
-Total: 27,404149 ms (FindLiveObjects: 0,821940 ms CreateObjectMapping: 0,512510 ms MarkObjects: 8,932630 ms  DeleteObjects: 17,135119 ms)
+Unloading 4764 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 167 unused Assets / (1,3 MB). Loaded Objects now: 5220.
+Memory consumption went from 224,6 MB to 223,3 MB.
+Total: 11,140689 ms (FindLiveObjects: 0,691930 ms CreateObjectMapping: 0,265390 ms MarkObjects: 8,588689 ms  DeleteObjects: 1,591300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -178,58 +178,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 25395,670063 seconds.
-  path: Assets/EffectGraphs/Speed Lines.vfx
-  artifactKey: Guid(63d04a2282c4f09479d0f0bf97a698c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectGraphs/Speed Lines.vfx using Guid(63d04a2282c4f09479d0f0bf97a698c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888d328da59ad1068897e61925428fa0') in 0,942856 seconds 
+  Time since last request: 54981,673300 seconds.
+  path: Assets/screen-rotation-512.png
+  artifactKey: Guid(f41d8d3b14a08aa0ba2bdf295a8e9b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/screen-rotation-512.png using Guid(f41d8d3b14a08aa0ba2bdf295a8e9b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aac7229de1ea7ff7656649db6e809b1') in 0,085306 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1177,408952 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122b37f8676b2951a112166ac9b910aa') in 0,360212 seconds 
+  Time since last request: 0,000025 seconds.
+  path: Assets/Sky.mat
+  artifactKey: Guid(c7f2d6170e52ea34ab8438134190fc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sky.mat using Guid(c7f2d6170e52ea34ab8438134190fc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f063028727d00831f6b92e050bbe9ce') in 0,409146 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19,186854 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22697197e1b26f0cedd0ba13d55cf5e3') in 0,001051 seconds 
+  Time since last request: 0,000048 seconds.
+  path: Assets/download.png
+  artifactKey: Guid(667c8fb0b80520e46acf81e9a4bdfe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/download.png using Guid(667c8fb0b80520e46acf81e9a4bdfe7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6342c4894abbe00a7be1def771ad7cc3') in 0,012268 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9,213145 seconds.
-  path: Assets/Materials/Particle.mat
-  artifactKey: Guid(eb70ef6f610a3d51bb31b25f944201fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Particle.mat using Guid(eb70ef6f610a3d51bb31b25f944201fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438fa09867b94461adb7b1ed31155dc7') in 0,025757 seconds 
+  Time since last request: 0,000039 seconds.
+  path: Assets/Scenes/Loading.unity
+  artifactKey: Guid(1a664b5d6946adf718236f1d104fe9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Loading.unity using Guid(1a664b5d6946adf718236f1d104fe9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfb034aa19e09039715b654c22c0fa8') in 0,001537 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 30,972728 seconds.
-  path: Assets/Lean/Touch/Examples/Media/GlowingTrail.png
-  artifactKey: Guid(8aa2527d78a48b5429dff156ab3641aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lean/Touch/Examples/Media/GlowingTrail.png using Guid(8aa2527d78a48b5429dff156ab3641aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131371ae0992579356276ca4b3e2b429') in 0,053993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0,095178 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat
-  artifactKey: Guid(87220c434b13e684f84b32a5a04cf4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat using Guid(87220c434b13e684f84b32a5a04cf4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f382508225025066dc9ee52dd29e64') in 0,133497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0,000053 seconds.
-  path: Assets/EffectExamples/WaterEffects/Textures/WaterTrailParticle.tif
-  artifactKey: Guid(1aa700dc6241ca84aa513fc5573761db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WaterEffects/Textures/WaterTrailParticle.tif using Guid(1aa700dc6241ca84aa513fc5573761db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3983fc95d7f6b1babce64b76415c3cef') in 0,021165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0,000058 seconds.
-  path: Assets/Lean/Touch/Examples/Media/Trail.mat
-  artifactKey: Guid(a249bfc9d8fe9874890b7170317078ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lean/Touch/Examples/Media/Trail.mat using Guid(a249bfc9d8fe9874890b7170317078ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117ba3e61f0ded55e04420c4252ce5c4') in 0,016615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0,000051 seconds.
-  path: Assets/EffectExamples/WaterEffects/Materials/WaterTrailParticle.mat
-  artifactKey: Guid(2cf2d564c8b1c7a469f8711c96c0efaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WaterEffects/Materials/WaterTrailParticle.mat using Guid(2cf2d564c8b1c7a469f8711c96c0efaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e979917b8978f82ddd81154895f14fa5') in 0,062570 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,006598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 2,35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2941ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2487ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (518ms)
+			ReleaseScriptCaches (10ms)
+			RebuildScriptCaches (231ms)
+			SetupLoadedEditorAssemblies (1442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (1013ms)
+				ProcessInitializeOnLoadMethodAttributes (222ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Switching build target platform(24) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1,59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 4593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 161 unused Assets / (1,1 MB). Loaded Objects now: 5348.
+Memory consumption went from 218,7 MB to 217,6 MB.
+Total: 9,269330 ms (FindLiveObjects: 0,694520 ms CreateObjectMapping: 0,250150 ms MarkObjects: 7,697430 ms  DeleteObjects: 0,624610 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
@@ -540,7 +564,7 @@ Memory Statistics:
       Initial Block Size 32,0 KB
       Current Block Size 256,0 KB
       Peak Allocated Bytes 210,4 KB
-      Overflow Count 18869
+      Overflow Count 26659
     [ALLOC_TEMP_Job.Worker 30]
       Initial Block Size 256,0 KB
       Current Block Size 256,0 KB
@@ -698,8 +722,8 @@ Memory Statistics:
       Overflow Count 0
     [ALLOC_TEMP_MAIN]
       Initial Block Size 16,0 MB
-      Current Block Size 17,7 MB
-      Peak Allocated Bytes 16,2 MB
+      Current Block Size 17,4 MB
+      Peak Allocated Bytes 14,3 MB
       Overflow Count 0
     [ALLOC_TEMP_CoreBusinessMetricsCache]
       Initial Block Size 64,0 KB
@@ -710,6 +734,11 @@ Memory Statistics:
       Initial Block Size 64,0 KB
       Current Block Size 64,0 KB
       Peak Allocated Bytes 32,6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 32,0 MB
+      Current Block Size 32,0 MB
+      Peak Allocated Bytes 0 B
       Overflow Count 0
     [ALLOC_TEMP_Profiler.Dispatcher]
       Initial Block Size 64,0 KB
@@ -727,15 +756,15 @@ Memory Statistics:
   Peak Allocated memory 1,0 MB
   Peak Large allocation bytes 0 B
 [ALLOC_DEFAULT] Dual Thread Allocator
-  Peak main deferred allocation count 2244
+  Peak main deferred allocation count 52
     [ALLOC_BUCKET]
       Large Block size 32,0 MB
       Used Block count 1
-      Peak Allocated bytes 9,9 MB
+      Peak Allocated bytes 8,3 MB
     [ALLOC_DEFAULT_MAIN]
       Requested Block Size 16,0 MB
-      Peak Block count 9
-      Peak Allocated memory 135,0 MB
+      Peak Block count 7
+      Peak Allocated memory 94,2 MB
       Peak Large allocation bytes 0 B
     [ALLOC_DEFAULT_THREAD]
       Requested Block Size 16,0 MB
@@ -754,24 +783,24 @@ Memory Statistics:
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
   Initial Block Size 2,0 MB
-  Used Block Count 3
+  Used Block Count 1
   Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_TEMP_JOB_ASYNC (Background)]
   Initial Block Size 1,0 MB
-  Used Block Count 3
+  Used Block Count 4
   Overflow Count (too large) 0
   Overflow Count (full) 0
 [ALLOC_GFX] Dual Thread Allocator
-  Peak main deferred allocation count 54
+  Peak main deferred allocation count 32
     [ALLOC_BUCKET]
       Large Block size 32,0 MB
       Used Block count 1
-      Peak Allocated bytes 9,9 MB
+      Peak Allocated bytes 8,3 MB
     [ALLOC_GFX_MAIN]
       Requested Block Size 16,0 MB
       Peak Block count 1
-      Peak Allocated memory 13,4 MB
+      Peak Allocated memory 4,8 MB
       Peak Large allocation bytes 0 B
     [ALLOC_GFX_THREAD]
       Requested Block Size 16,0 MB
@@ -779,15 +808,15 @@ Memory Statistics:
       Peak Allocated memory 0 B
       Peak Large allocation bytes 0 B
 [ALLOC_CACHEOBJECTS] Dual Thread Allocator
-  Peak main deferred allocation count 29343
+  Peak main deferred allocation count 24190
     [ALLOC_BUCKET]
       Large Block size 32,0 MB
       Used Block count 1
-      Peak Allocated bytes 9,9 MB
+      Peak Allocated bytes 8,3 MB
     [ALLOC_CACHEOBJECTS_MAIN]
       Requested Block Size 4,0 MB
-      Peak Block count 27
-      Peak Allocated memory 103,3 MB
+      Peak Block count 23
+      Peak Allocated memory 85,9 MB
       Peak Large allocation bytes 0 B
     [ALLOC_CACHEOBJECTS_THREAD]
       Requested Block Size 4,0 MB
@@ -795,15 +824,15 @@ Memory Statistics:
       Peak Allocated memory 0 B
       Peak Large allocation bytes 0 B
 [ALLOC_TYPETREE] Dual Thread Allocator
-  Peak main deferred allocation count 34019
+  Peak main deferred allocation count 28555
     [ALLOC_BUCKET]
       Large Block size 32,0 MB
       Used Block count 1
-      Peak Allocated bytes 9,9 MB
+      Peak Allocated bytes 8,3 MB
     [ALLOC_TYPETREE_MAIN]
       Requested Block Size 2,0 MB
-      Peak Block count 23
-      Peak Allocated memory 42,4 MB
+      Peak Block count 17
+      Peak Allocated memory 31,1 MB
       Peak Large allocation bytes 0 B
     [ALLOC_TYPETREE_THREAD]
       Requested Block Size 2,0 MB
@@ -813,12 +842,12 @@ Memory Statistics:
 [ALLOC_PROFILER]
   Requested Block Size 16,0 MB
   Peak Block count 1
-  Peak Allocated memory 192,0 KB
+  Peak Allocated memory 210,6 KB
   Peak Large allocation bytes 0 B
     [ALLOC_PROFILER_BUCKET]
       Large Block size 32,0 MB
       Used Block count 1
-      Peak Allocated bytes 9,6 KB
+      Peak Allocated bytes 9,7 KB
 [ALLOC_PROFILER_EDITOR]
   Requested Block Size 1,0 MB
   Peak Block count 0
@@ -827,5 +856,5 @@ Memory Statistics:
     [ALLOC_PROFILER_BUCKET]
       Large Block size 32,0 MB
       Used Block count 1
-      Peak Allocated bytes 9,6 KB
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1643304283598,"processId":296341,"allocatedMemory":127435448,"memoryLabels":[{"Default":35987},{"Permanent":17944},{"Thread":1098616},{"Manager":2735261},{"VertexData":91088},{"Geometry":744},{"Particles":17856},{"VFX":768},{"Texture":3014885},{"Shader":718786},{"Material":30884},{"GfxDevice":239488},{"Animation":19934},{"Audio":4508},{"Font":1400},{"Physics":268221},{"Physics2D":152912},{"Serialization":11531110},{"Input":59504},{"JobScheduler":576},{"GarbageCollector":1049152},{"Mono":92},{"ScriptingNativeRuntime":43520},{"BaseObject":1883674},{"Resource":1180},{"Renderer":28304},{"Transform":48},{"File":13416},{"Network":3032},{"WebCam":24},{"Culling":48},{"Terrain":1065},{"TerrainPhysics":8},{"Wind":24},{"STL":1216512},{"String":75532942},{"DynamicArray":7702849},{"HashMap":3116402},{"Utility":2380274},{"Curl":1112},{"PoolAlloc":684032},{"AI":59616},{"TypeTree":2064},{"ScriptManager":3101655},{"RuntimeInitializeOnLoadManager":72},{"AncestorCache":32},{"SpriteAtlas":112},{"GI":15312},{"Unet":16},{"Director":7816},{"WebRequest":720},{"VR":45761},{"SceneManager":624},{"Video":208},{"LazyScriptCache":32},{"ManagedAttributeManager":1},{"TextureStreaming":1416},{"NativeArray":12},{"ScreenCapture":8},{"Camera":25},{"Secure":1},{"CrashReporter":968},{"SerializationCache":624},{"APIUpdating":5872},{"Subsystems":384},{"VirtualTexturing":59424},{"StaticSafetyDebugInfo":327752},{"EditorGui":8100},{"EditorUtility":30623},{"VersionControl":4},{"Undo":482},{"AssetDatabase":9702812},{"AssetImporter":272003},{"RestService":5994},{"EditorGi":23704},{"ProgressiveLightmapper":10832},{"License":48},{"UnityConnect":28584},{"Collab":641},{"Upm":1128},{"DrivenProperties":80},{"HubClient":32},{"LocalIPC":121},{"ProfilerEditor":20117},{"CoreBusinessMetrics":1402},{"AssetReference":32}]}
+      Peak Allocated bytes 9,7 KB
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1643362485402,"processId":606923,"allocatedMemory":111500486,"memoryLabels":[{"Default":36195},{"Permanent":17944},{"Thread":1098488},{"Manager":1849757},{"VertexData":90992},{"Geometry":744},{"Particles":17856},{"VFX":768},{"Texture":3692289},{"Shader":732178},{"Material":12564},{"GfxDevice":237880},{"Animation":18590},{"Audio":4508},{"Font":1400},{"Physics":744261},{"Physics2D":455280},{"Serialization":11879815},{"Input":59504},{"JobScheduler":576},{"GarbageCollector":1049152},{"Mono":92},{"ScriptingNativeRuntime":43520},{"BaseObject":1851790},{"Resource":1180},{"Renderer":8296},{"Transform":48},{"File":17487},{"Network":3032},{"WebCam":24},{"Culling":48},{"Terrain":1065},{"TerrainPhysics":8},{"Wind":24},{"Shadow":112},{"STL":1363968},{"String":61927530},{"DynamicArray":8425616},{"HashMap":3138033},{"Utility":2380274},{"Curl":1112},{"PoolAlloc":598952},{"AI":59616},{"TypeTree":2064},{"ScriptManager":1885785},{"RuntimeInitializeOnLoadManager":72},{"AncestorCache":32},{"SpriteAtlas":112},{"GI":15312},{"Unet":16},{"Director":7816},{"WebRequest":720},{"VR":45761},{"SceneManager":1360},{"Video":208},{"LazyScriptCache":32},{"ManagedAttributeManager":1},{"TextureStreaming":1416},{"NativeArray":12},{"ScreenCapture":8},{"Camera":25},{"Secure":1},{"CrashReporter":968},{"SerializationCache":624},{"APIUpdating":5872},{"Subsystems":384},{"VirtualTexturing":59424},{"StaticSafetyDebugInfo":327752},{"EditorGui":8100},{"EditorUtility":18135},{"VersionControl":1156},{"Undo":482},{"AssetDatabase":6932682},{"AssetImporter":268871},{"RestService":5994},{"EditorGi":23704},{"ProgressiveLightmapper":10832},{"License":48},{"UnityConnect":28584},{"Collab":641},{"Upm":1128},{"DrivenProperties":80},{"HubClient":32},{"LocalIPC":121},{"ProfilerEditor":20117},{"CoreBusinessMetrics":1402},{"AssetReference":32}]}

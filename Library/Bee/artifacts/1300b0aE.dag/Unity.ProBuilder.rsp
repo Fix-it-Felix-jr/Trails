@@ -121,7 +121,6 @@
 -define:PUN_2_0_OR_NEWER
 -define:PUN_2_OR_NEWER
 -define:PUN_2_19_OR_NEWER
--define:HDRP_7_1_0_OR_NEWER
 -define:USING_PARTICLE_SYSTEM
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -348,7 +347,6 @@
 -r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.KdTree.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.ProBuilder.Poly2Tri.ref.dll"
--r:"Library/Bee/artifacts/1300b0aE.dag/Unity.RenderPipelines.HighDefinition.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 "Library/PackageCache/com.unity.probuilder@5.0.3/Runtime/Core/ActionResult.cs"

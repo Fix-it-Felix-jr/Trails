@@ -5,7 +5,7 @@ Library: lib_burst_generated
 --global-safety-checks-setting=Off
 --dump=Function
 --float-precision=Standard
---compilation-defines=UNITY_2021_2_5
+--compilation-defines=UNITY_2021_2_8
 --compilation-defines=UNITY_2021_2
 --compilation-defines=UNITY_2021
 --compilation-defines=UNITY_5_3_OR_NEWER
@@ -128,10 +128,15 @@ Library: lib_burst_generated
 --compilation-defines=CSHARP_7_3_OR_NEWER
 --compilation-defines=ENABLE_VR_MODULE
 --compilation-defines=ENABLE_XR_MODULE
+--compilation-defines=VISUAL_EFFECT_GRAPH_0_0_1_OR_NEWER
 --compilation-defines=ENABLE_BURST_1_0_0_OR_NEWER
 --compilation-defines=USING_ANIMATION_MODULE
 --compilation-defines=USING_PHYSICS2D_MODULE
---compilation-defines=UNIVERSAL_1_0_0_OR_NEWER
+--compilation-defines=VFX_HAS_TIMELINE
+--compilation-defines=VFX_HAS_TERRAINMODULE
+--compilation-defines=VFX_HAS_UI
+--compilation-defines=VFX_HAS_PHYSICS
+--compilation-defines=VFX_HAS_AUDIO
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --compilation-defines=USING_PARTICLE_SYSTEM
 --debug=Full
@@ -141,10 +146,10 @@ Library: lib_burst_generated
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.Mathematics.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll
---root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.Postprocessing.Runtime.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/PhotonUnityNetworking.Demos.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.Burst.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll
+--root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.VisualEffectGraph.Runtime.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Poly2Tri.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.Timeline.dll
 --root-assembly=/home/g/Documenti/GitHub/Trails/Temp/StagingArea/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll

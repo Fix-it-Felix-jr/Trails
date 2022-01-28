@@ -11,13 +11,19 @@ public class Fade : MonoBehaviour {
         public float FadeSpeed = 1.0F;
         public int RolloverCharacterSpread = 10;
         public Color ColorTint;
+        public int timeOnScreen = 5000;
+        public int timeBeforeDisappears=3000;
         void Awake()
         {
             m_TextComponent = GetComponent<TMP_Text>();
         }
-        void Start()
+        async void Start()
         {
+            await Task.Delay(timeOnScreen);
             StartCoroutine(AnimateVertexColors());
+            await Task.Delay(timeBeforeDisappears);
+            m_TextComponent.transform.position = new Vector3(0,-50000,0);//where posX Y Z is the position where you want to put your text.
+
         }
         /// <summary>
         /// Method to animate vertex colors of a TMP Text object.
