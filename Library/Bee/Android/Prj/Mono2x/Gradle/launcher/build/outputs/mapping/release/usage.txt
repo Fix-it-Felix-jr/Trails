@@ -1,0 +1,49 @@
+com.Graphy.Trails.BuildConfig
+com.Graphy.Trails.R
+com.Graphy.Trails.R$drawable
+com.Graphy.Trails.R$id
+com.Graphy.Trails.R$mipmap
+com.Graphy.Trails.R$string
+com.Graphy.Trails.R$style
+com.samsung.android.gamesdk.GameSDKManager:
+    private static final java.lang.String TAG
+    private static final float GameSDK2_0
+    private static final float GameSDK3_0
+    private static final float GameSDK3_1
+    private static final float GameSDK3_2
+    private static final float GameSDK3_3
+    private static final float GameSDK3_4
+    private static final int DEFAULT_REFRESH_RATE
+    private static final int INVALID_INT
+    private static final double INVALID_DOUBLE
+    92:101:public boolean initialize()
+    112:127:public boolean initialize(java.lang.String)
+    137:150:public void finalize(java.lang.String)
+    157:161:public static boolean isAvailable()
+    189:198:public int getTempLevel()
+    208:217:public int getSkinTempLevel()
+    227:240:public int getCPULevelMax()
+    250:263:public int getGPULevelMax()
+    273:286:public double getHighPrecisionSkinTempLevel()
+    298:311:public boolean setLevelWithScene(java.lang.String,int,int)
+    321:361:public boolean setListener(com.samsung.android.gamesdk.GameSDKManager$Listener)
+    371:380:public int getCpuJTLevel()
+    390:399:public int getGpuJTLevel()
+    409:432:public double getGpuFrameTime()
+    437:458:private double getGpuUsage()
+    470:483:public boolean setDisableTMLevel(int)
+    499:515:public int setFreqLevels(int,int)
+    578:591:public int getClusterInfo()
+    601:614:public boolean isGameSDKVariableRefreshRateSupported()
+    622:635:public int[] getSupportedRefreshRates()
+    643:656:public void setRefreshRate(int)
+    663:676:public void resetRefreshRate()
+    683:696:public int getCurrentRefreshRate()
+    14:14:static synthetic com.samsung.android.gamesdk.GameSDKManager$Listener access$000(com.samsung.android.gamesdk.GameSDKManager)
+com.samsung.android.gamesdk.GameSDKManager$1
+com.samsung.android.gamesdk.GameSDKManager$Listener:
+    public abstract void onHighTempWarning(int)
+    public abstract void onRefreshRateChanged()
+    public abstract void onReleasedByTimeout()
+    public abstract void onReleasedCpuBoost()
+    public abstract void onReleasedGpuBoost()

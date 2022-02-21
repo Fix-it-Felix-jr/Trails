@@ -9,10 +9,14 @@ using System.Threading.Tasks;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 using UnityEngine.SceneManagement;
 using ExitGames.Client.Photon;
+using CameraFading;
+using UnityEngine.Audio;
 namespace TMPro.Examples{
 
 public class ShakeDetect : MonoBehaviour
 {
+    public AudioMixer filterMixer;
+    public AudioMixerSnapshot[] filterSnapshots;
     float accelerometerUpdateInterval = 1.0f / 60.0f;
     // The greater the value of LowPassKernelWidthInSeconds, the slower the
     // filtered value will converge towards current input sample (and vice versa).
@@ -27,6 +31,7 @@ public class ShakeDetect : MonoBehaviour
     float timeLeft;
     public TMP_Text txtPlayerSpeed;
     Hashtable data = new Hashtable();
+    bool[] endValues = new bool[2];
     float[] penaltyValues = new float[2];
     bool end=false;
     bool started=false;
@@ -34,12 +39,22 @@ public class ShakeDetect : MonoBehaviour
     public TMP_Text countdown;
     public int timeBeforeStarts=7000;
     bool disconnect=false;
+    public float[] pesi=new float[2];
+    //bool canShake=true;
+    //GameObject myCamera = GameObject.Find("Main Camera");
+    //static CVDFilter filtro=myCamera.GetComponent<CVDFilter>(); 
 
     public AudioSource audioSource;
 
+
     async void Start()
     {
-        //audioSource = GetComponent<AudioSource>();
+        
+        //myCamera.SendMessage("getCanShake", canShake);
+        //myCamera.SendMessage("CameraFade.In()");
+
+        audioSource = audioSource.GetComponent<AudioSource>();
+        CameraFade.In(2f);
         lowPassFilterFactor = accelerometerUpdateInterval / lowPassKernelWidthInSeconds;
         shakeDetectionThreshold *= shakeDetectionThreshold;
         lowPassValue = Input.acceleration;
@@ -74,6 +89,8 @@ public class ShakeDetect : MonoBehaviour
         
         await Task.Delay(500);
         countdown.text="";
+
+        
     }
 
     async void Update()
@@ -85,7 +102,9 @@ public class ShakeDetect : MonoBehaviour
         timeLeft -= Time.deltaTime;
 
         data["pen"]=penalty;
+        data["end"]=end;
         PhotonNetwork.LocalPlayer.SetCustomProperties(data);
+        int endCounter=0;
 
         //Show custom properties of all players
         int j=0;
@@ -93,10 +112,20 @@ public class ShakeDetect : MonoBehaviour
         {
             if (!end && item.CustomProperties.ContainsKey("pen"))
             {
-                Debug.Log("Player " +j + " penalty: " + item.CustomProperties["pen"]);
+
+                //Debug.Log("Player " +j + " penalty: " + item.CustomProperties["pen"]);
                 penaltyValues[j]=(float)item.CustomProperties["pen"];
             }
+            if (item.CustomProperties.ContainsKey("end"))
+            {
+                endValues[j]=(bool)item.CustomProperties["end"];
+                if (endValues[j]){
+                    endCounter++;
+                }
+            }
+            endCounter=0;
             j++;
+
         }
 
         
@@ -106,6 +135,8 @@ public class ShakeDetect : MonoBehaviour
         }
 
         if (!disconnect && PhotonNetwork.PlayerList.Length<2){
+            FadeObject.FadeIn();
+            //CameraFade.Out(2f);
             disconnect=true;
             countdown.text="Disconnection";
             await Task.Delay(5000);
@@ -115,6 +146,20 @@ public class ShakeDetect : MonoBehaviour
             SceneManager.LoadScene("PlayAgain");
         }
 
+        //Debug.Log("CanShake="+CVDFilter.canShake);
+
+        if(!(CVDFilter.canShake)){
+            audioSource.volume=0.7f;
+            
+            pesi[0]=0;
+            pesi[1]=100;
+        }
+        else{
+            pesi[0]=100;
+            pesi[1]=0;
+            audioSource.volume=1f;
+        }
+        filterMixer.TransitionToSnapshots(filterSnapshots, pesi, 0.05f);
         
 
         if (started && !end && timeLeft<0.1 && deltaAcceleration.sqrMagnitude >= shakeDetectionThreshold)
@@ -122,8 +167,13 @@ public class ShakeDetect : MonoBehaviour
             // Perform your "shaking actions" here. If necessary, add suitable
             // guards in the if check above to avoid redundant handling during
             // the same shake (e.g. a minimum refractory period).
-            Debug.Log("Shake event detected at time "+Time.time);
+            //Debug.Log("Shake event detected at time "+Time.time);
             Vibrator.Vibrate(20);
+            
+            if (!(CVDFilter.canShake)){
+                penalty+=Math.Abs(timeLeft)*100;
+                penalty+=10;
+            }
             penalty+=Math.Abs(timeLeft);
 
             
@@ -141,8 +191,12 @@ public class ShakeDetect : MonoBehaviour
 
         if (!end && !audioSource.isPlaying)
         {
+            FadeObject.FadeIn();
             //Finished
             end=true;
+            //let's wait for the others
+            countdown.text="Finished!";
+            await Task.Delay(2000);
             Winner();
         }
     }
@@ -153,6 +207,7 @@ public class ShakeDetect : MonoBehaviour
 
     async public void Winner(){
         if (!disconnect && PhotonNetwork.PlayerList.Length>1){
+            CameraFade.In(2f);
             if (penaltyValues[0]<penaltyValues[1]){
                 Debug.Log("Player 0 WON!");
                 if (PhotonNetwork.PlayerList[0]==PhotonNetwork.LocalPlayer){
@@ -182,6 +237,7 @@ public class ShakeDetect : MonoBehaviour
             }
         }
         else{
+            FadeObject.FadeIn();
             countdown.text="Disconnection";
             await Task.Delay(5000);
             countdown.text="No contest";

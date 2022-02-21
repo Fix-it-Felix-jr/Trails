@@ -122,6 +122,8 @@
 -define:PUN_2_OR_NEWER
 -define:PUN_2_19_OR_NEWER
 -define:VISUAL_EFFECT_GRAPH_0_0_1_OR_NEWER
+-define:ADAPTIVE_PERFORMANCE_2_0_0_OR_NEWER
+-define:ADAPTIVE_PERFORMANCE_2_1_0_OR_NEWER
 -define:ENABLE_BURST_1_0_0_OR_NEWER
 -define:ENABLE_VR_MODULE
 -define:ENABLE_XR_MODULE
@@ -350,6 +352,7 @@
 -r:"Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll"
 -r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
 -r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.AdaptivePerformance.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"

@@ -1,0 +1,4 @@
+#Fri Jan 28 18:14:08 CET 2022
+base.0=/home/g/Documenti/GitHub/Trails/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

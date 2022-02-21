@@ -19,6 +19,8 @@ public class test : MonoBehaviour
     }
 
     public void Start(){
+        Application.targetFrameRate=60;
+        //QualitySettings.vSyncCount = 0;
         Task.Delay(StartDelayMilliseconds);
         InvokeRepeating("Vibrate", StartDelayMilliseconds*1000, time);
 

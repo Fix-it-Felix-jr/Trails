@@ -9,7 +9,6 @@ android.permission.INTERNET was added because:
 		websocket-sharp-FeaturesChecked.txt
 	UnityEngine.WWW was present in:
 		Assembly-CSharp-FeaturesChecked.txt
-	Development player
 android.permission.VIBRATE was added because:
 	UnityEngine.Handheld::Vibrate was present in:
 		Assembly-CSharp-FeaturesChecked.txt
